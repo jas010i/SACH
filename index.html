@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>San Antonio Car Hub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="SACH_LOGO - Copy.png">
+    <link href="sacm_home.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+   
+    <script src="sacm_home.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#events">Events</a>
+                <a href="#clubs">Clubs</a><
+                <a href="#aboutus">About Us</a>
+                <p>|| San Antonio Car Hub</p>
+              <img src="SACH_LOGO.png" alt="SACH_LOGO" id="skyline">
+        </div>
+    </header>
+    
+<div class="fixed-bg"></div>
+
+<h1><p id="galleryTitle">Photos of the Week!</p></h1>
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides fade" style="display: block;">
+      <div class="numbertext">1 / 4</div>
+        <img src="car1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+        <img src="car2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+        <img src="car3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+        <img src="car4.jpg" style="width:100%">
+    </div>
+  
+
+  
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="car1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mustang">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="car2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Camaro">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="car3.jpg" style="width:100%" onclick="currentSlide(3)" alt="M4">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="car4.jpg" style="width:100%" onclick="currentSlide(4)" alt="GTR">
+      </div>
+    </div>
+  </div>
+
+  <!--side panels of gallery image(s)-->
+
+  <div>
+    <div class="galleryRight">
+    <header>
+      My Story
+    </header>  
+      <p>
+        SACH, or San Antonio Car Hub, <br>
+        was founded April 28th, 2020,<br>
+        as a project to spruce up my<br>
+        resume for my Front-End Web<br>
+        Developer career aspirations.
+        <br>
+        <br>
+        The website goal is to create<br>
+        a central hub where everyone in <br>
+        San Antonio can go to for <br>
+        information on car clubs, events, <br>
+        promotions, and even just to see <br>
+        what other people are driving. 
+        <br>
+        <br>
+        Ideally, this site will become <br>
+        San Antonio's favorite site for <br>
+        car-related information.
+        <br>
+        <br>
+        It's going to be a long journey <br>
+        to complete this site 100%, but <br>
+        I'm willing to learn what I must <br>
+        and apply it to this site! 
+        <br>
+        <br>
+        Here goes nothing!
+      </p>
+    </div>
+
+    <div class="galleryLeft">
+      <h3 id=photoSubmissionHeader>Photo Submissions</h3>
+      <p id="photoSubmission">
+        Want to submit your photo<br>
+        for a chance to be featured<br>
+        on next weeks gallery?<br></p>
+        <br>
+        <button class="cursor">Click Here to Submit</button>
+        <br>
+        <br>
+        <p id="note"><strong style="color: red;">Note:</strong>
+        Photo resolution must be<br>
+        1920x1080 or higher.
+      </p>
+    </div>
+  </div>
+  <button class="accordion">Event 1</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+  
+  <button class="accordion">Event 2</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+  
+  <button class="accordion">Event 3</button>
+  <div class="panel">
+    <p>Lorem ipsum...</p>
+  </div>
+
+</body>
+
+<footer>
+  <img src="SACH_LOGO.png" alt="SACH_LOGO">
+  <p>
+    Est. 2020<br>
+    SACH Copyright. All Rights Reserved.
+  </p>
+  <section id="contact">
+    Contact Us:<br>
+    <br>
+    jason@sacarhub.com
+    <hr>
+  </section>
+</footer>
+</html>
