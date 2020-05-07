@@ -1,0 +1,71 @@
+html {
+    background-size: 100% auto;
+    margin: 0px;
+    margin-bottom: 0;
+  }
+  
+  body {
+    background-size: 100% auto;
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: white
+  }
+  
+  header {
+    background-size: 100% auto;
+    margin: 0px;
+  }
+
+  a {
+    font-family: 'Permanent Marker';
+  }
+  
+  /* Navigation Bar*/
+  
+  .topnav > img#skyline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    height: auto;
+    float: right;
+    padding-right: 10px;
+    position: -webkit-sticky;
+  }
+  
+  .topnav > p {
+    color: white;
+    float: right;
+    padding-right: 5%;
+    font-family: 'Permanent Marker';
+  }
+  
+  .topnav {
+      background-color: black;
+      overflow: hidden;
+      display: block;
+      position: -webkit-sticky;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #3a3a3aad;
+      color: white;
+    }
+    
+    .topnav a.active {
+      background-color: darkred;
+      color: white;
+    }
+  
+    * {
+      box-sizing: border-box;
+    }
+  
