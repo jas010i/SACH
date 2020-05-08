@@ -157,12 +157,13 @@ h1 > p#galleryTitle {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     display: block;
-    position: -webkit-sticky;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     padding-bottom: 0px;
     background-color: black;
+    max-width: 980px auto;
 
   }
   
@@ -181,10 +182,9 @@ h1 > p#galleryTitle {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 900px;
-    width: auto;
+    top: 50%;
+    max-width: 980px auto;
     padding: 8px;
-    margin-top: -50px;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -196,9 +196,10 @@ h1 > p#galleryTitle {
   }
   
   .next {
-    right: 25%;
+    max-width: 980px auto;
     border-radius: 3px 0 0 3px;
     position: absolute;
+    left: 97.2%;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -209,11 +210,15 @@ h1 > p#galleryTitle {
   
   /* Number text (1/3 etc) */
   .numbertext {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    padding-bottom: 1px;
+    background-color: black;
     color: white;
-    font-size: 12px;
-    padding: 8px 320px;
-    position: -webkit-sticky;
-    background-color: #000000;
+    max-width: 980px auto;
     font-family: 'Permanent Marker';
   }
   
