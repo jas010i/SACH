@@ -289,8 +289,8 @@ h1 > p#galleryTitle {
    padding-left: 10px;
    padding-top: 4px;
    padding-bottom: 4px;
-   bottom: -75px;
-   right: 125px;
+   top: 20%;
+   right: 10%;
    font-family: 'Permanent Marker';
    font-size: 18px;
    background-color: black;
@@ -300,12 +300,11 @@ h1 > p#galleryTitle {
  .galleryRight > p{
     position: absolute;
     bottom: 0;
-    top: 722px;
-    right: 30px;
+    top: 25%;
+    right: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size: 16px;
-    background-color: gray;
 }
 
 .eventTable {
