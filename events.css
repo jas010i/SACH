@@ -2,6 +2,9 @@ html {
     background-size: 100% auto;
     margin: 0px;
     margin-bottom: 0;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   body {
@@ -22,16 +25,6 @@ html {
   
   /* Navigation Bar*/
   
-  .topnav > img#skyline {
-    margin-left: auto;
-    margin-right: auto;
-    width: 11%;
-    height: auto;
-    float: right;
-    padding-right: 10px;
-    position: -webkit-sticky;
-  }
-  
   .topnav > p {
     color: white;
     float: right;
@@ -43,7 +36,10 @@ html {
       background-color: black;
       overflow: hidden;
       display: block;
-      position: -webkit-sticky;
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .topnav a {
