@@ -22,8 +22,8 @@ header {
 
 .fixed-bg {
   background-image: url(cityskyline.jpg);
-  min-height: 300px auto;
-  max-width: auto;
+  max-width: 100% auto;
+  min-height: 980px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,65 +83,68 @@ a {
     color: white;
   }
 
-  * {
+
+
+  #section07 a {
+    padding-top: 80px;
+  }
+  #section07 a span {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 4px solid darkred;
+    border-bottom: 4px solid darkred;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
     box-sizing: border-box;
   }
-  .scrolldown {
-    position: relative;
-    
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    background: red;
-    transform: translateY(-80px) translateX(-50%) rotate(45deg);
+  #section07 a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
   }
-  
-  .scrolldown span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    animation: animate 1.5s linear infinite;
+  #section07 a span:nth-of-type(2) {
+    bottom: 65px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
   }
-  
-  .scrolldown span:nth-child(1) {
-    transform: translate(-15px, -15px);
-    animation-delay: -0.4s;
+  #section07 a span:nth-of-type(3) {
+    bottom: 50px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
   }
-  
-  .scrolldown span:nth-child(2) {
-    transform: translate(0,0);
-    animation-delay: -0.4s;
-  }
-  
-  .scrolldown span:nth-child(3) {
-    transform: translate(15,15);
-    animation-delay: -0.4s;
-  }
-  
-  @keyframes animate {
-    0%
-    {
-      top: -5px;
-      left: -5px;
+  @-webkit-keyframes sdb07 {
+    0% {
       opacity: 0;
     }
-    25% 
-    {
-      top: 0px;
-      left: 0px;
-      opacity: 0px;
+    50% {
+      opacity: 1;
     }
-    100%
-    {
-      top: 5px;
-      left: 5px;
+    100% {
       opacity: 0;
     }
   }
-/*Photos of the Week*/
+  @keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+
+
+  /*Photos of the Week*/
 
 h1 > p#galleryTitle {
   text-align: center;
@@ -158,8 +161,9 @@ h1 > p#galleryTitle {
   .container {
     display: block;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    left: 25%;
+    margin-left: 0;
+    margin-right: 0;
     width: 50%;
     padding-bottom: 0px;
     background-color: black;
@@ -181,6 +185,7 @@ h1 > p#galleryTitle {
   .prev,
   .next {
     cursor: pointer;
+    margin: 0;
     position: absolute;
     top: 50%;
     max-width: 980px auto;
@@ -198,7 +203,7 @@ h1 > p#galleryTitle {
   .next {
     max-width: 980px auto;
     border-radius: 3px 0 0 3px;
-    position: absolute;
+    position: right;
     left: 97.2%;
   }
   
@@ -281,9 +286,12 @@ h1 > p#galleryTitle {
     display: block;
     overflow: hidden;
     float: right;
+    max-width: 980px auto;
+    padding: 10px;
   }
 
  .galleryRight > header {
+   max-width: 980px auto;
    position: absolute;
    padding-right: 10px;
    padding-left: 10px;
@@ -299,23 +307,27 @@ h1 > p#galleryTitle {
 
  .galleryRight > p{
     position: absolute;
+    max-width: 980px auto;
     bottom: 0;
     top: 25%;
     right: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size: 16px;
+    border: 4px solid black;
+    padding: 7px;
+    margin-bottom: 20%;
 }
 
 .eventTable {
-  width: 100;
+  max-width: 980px auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   display: block;
   position: absolute;
-  top: 900px;
-  left: 5px;
+  top: 15%;
+  left: 41%;
 }
 th {
   font-family: 'Permanent Marker';
@@ -338,20 +350,24 @@ tr, th, td {
 
 footer {
   margin: 0px;
+  max-width: 100%;
+  background-color: black;
+  
 }
 
 footer > img {
-  background-color: black;
-  color: white;
-  width: 100%;
+  display: block;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 600px;
-  padding-right: 600px;
-  padding-top: 200px;
-  padding-bottom: 25px;
+  background-color: black;
   position: relative;
-  bottom: -125px;
+  bottom: -117px;
+  padding-left: 44%;
+  padding-right: 56%;
+  
+
+
 }
 
 footer > p {
@@ -378,30 +394,32 @@ section#contact {
 }
 
 #photoSubmission {
-  float: left;
-  margin: 0;
-  display: block;
   position: absolute;
-  top: 722px;
-  left: 55px;
+  max-width: 980px auto;
+  bottom: 0;
+  top: 25%;
+  left: 5%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
   font-size: 16px;
-  text-justify: inter-word;
+  border: 4px solid black;
+  padding: 7px;
+  margin-bottom: 28%;
 }
 
 #photoSubmissionHeader {
- float: left;
- color: white;
- background-color: black;
- font-size: 18px;
- font-family: 'Permanent Marker';
- padding-top: 4px;
- padding-bottom: 4px;
- padding-left: 8px;
- padding-right: 8px;
- position: absolute;
- left: 70px;
- top: 645px;
+  max-width: 980px auto;
+   position: absolute;
+   padding-right: 10px;
+   padding-left: 10px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   top: 20%;
+   left: 6%;
+   font-family: 'Permanent Marker';
+   font-size: 18px;
+   background-color: black;
+   color: white;
 }
 
 
@@ -409,8 +427,8 @@ section#contact {
   font-size: 12px;
   color: rgb(97, 97, 97);
   position: absolute;
-  top: 815px;
-  left: 80px;
+  top: 39%;
+  left: 7.2%;
 }
 
 button {
@@ -420,8 +438,8 @@ button {
   font-family: 'Permanent Marker';
   float: left;
   position: absolute;
-  left: 80px;
-  top: 790px;
+  left: 7%;
+  top: 36%;
 }
 
 button:hover {
@@ -438,3 +456,4 @@ hr {
   width: 75%;
   color: white;
 }
+
