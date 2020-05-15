@@ -2,6 +2,7 @@ html {
   background-size: auto;
   margin: 0px;
   margin-bottom: 0;
+  min-width: 320px;
   max-width: 980px auto;
   margin-right: auto;
   margin-left: auto;
@@ -22,9 +23,6 @@ header {
 
 .fixed-bg {
   background-image: url(cityskyline.jpg);
-  max-width: 100% auto;
-  min-height: 320px;
-  max-height: 980px auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,12 +220,13 @@ h1 > p#galleryTitle {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 6%;
+    width: 15%;
     padding-bottom: 1px;
     background-color: black;
     color: white;
     max-width: 980px auto;
     font-family: 'Permanent Marker';
+    text-align: center;
   }
   
   /* Container for image text */
@@ -292,8 +291,8 @@ h1 > p#galleryTitle {
     max-width: 980px auto;
     padding: 10px;
     position: absolute;
-    bottom: -38%;
-    right: 0;
+    top: 15%;
+    right: 1%;
   }
 
  .galleryRight > header {
@@ -323,13 +322,14 @@ h1 > p#galleryTitle {
 }
 
 .eventTable {
-  min-width: 320px;
-  max-width: 980px auto;
-  text-align: center;
-  display: block;
-  position: absolute;
-  bottom: 1%;
-  left: 0;
+    display: block;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 980px auto;
+    padding: 10px;
+    position: absolute;
+    top: 15%;
+    left: 1%;
 }
 th {
   font-family: 'Permanent Marker';
@@ -390,46 +390,22 @@ footer > section#contact {
 }
 
 .galleryLeft {
-  min-width: 320px;
-  max-width: 980px auto;
-  text-align: center;
-  display: block;
-  position: absolute;
-  bottom: -30%;
-  left: 3%;
+    display: block;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 980px auto;
+    padding: 10px;
+    position: absolute;
+    top: 75%;
+    left: 1%;
 }
 
 #photoSubmission {
-  display: block;
-  position: absolute;
-  min-width: 320px;
-  max-width: 980px auto;
-  bottom: -55%;
-  left: 5%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: justify;
-  font-size: 16px;
-  padding: 7px;
-  margin-bottom: 28%;
+  
 }
 
 #photoSubmissionHeader {
-  display: block;
-  margin-bottom: 28%;
-  min-width: 320px;
-  max-width: 980px auto;
-   position: absolute;
-   padding-right: 0px;
-   padding-left: 0px;
-   padding-top: 4px;
-   padding-bottom: 4px;
-   bottom: 100%;
-   left: -11%;
-   font-family: 'Permanent Marker';
-   font-weight: lighter;
-   font-size: 18px;
-   background-color: black;
-   color: white;
+  
 }
 
 
