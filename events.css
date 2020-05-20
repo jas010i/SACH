@@ -1,67 +1,117 @@
 html {
-    background-size: 100% auto;
-    margin: 0px;
-    margin-bottom: 0;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  body {
-    background-size: 100% auto;
-    margin: 0px;
-    margin-bottom: 0px;
-    background-color: white
-  }
-  
-  header {
-    background-size: 100% auto;
-    margin: 0px;
-  }
+  background-size: auto;
+  margin: 0px;
+  margin-bottom: 0;
+  min-width: 320px;
+  max-width: 980px auto;
+  margin-right: auto;
+  margin-left: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: auto;
+  margin: 0px;
+  margin-bottom: 0px;
+  background-color: white
+}
+
+header {
+  background-size: auto;
+  margin: 0px;
+  max-width: 980px auto;
+}
 
   a {
     font-family: 'Permanent Marker';
   }
   
   /* Navigation Bar*/
-  
-  .topnav > p {
-    color: white;
-    float: right;
-    padding-right: 5%;
-    font-family: 'Permanent Marker';
+
+.topnav > img#skyline {
+  max-width: auto;
+  max-height: 45px;
+  float: right;
+  padding-right: 10px;
+  position: relative;
+  right: 1%;
+  top: 5px;
+  display: block;
+}
+
+.topnav > p {
+  color: white;
+  float: right;
+  padding-right: 5%;
+  font-family: 'Permanent Marker';
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-width: 980px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  .topnav {
-      background-color: black;
-      overflow: hidden;
-      display: block;
-      position: relative;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .topnav a {
-      float: left;
-      color: #ffffff;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    
-    .topnav a:hover {
-      background-color: #3a3a3aad;
-      color: white;
-    }
-    
-    .topnav a.active {
-      background-color: darkred;
-      color: white;
-    }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
   
-    * {
-      box-sizing: border-box;
-    }
+  .topnav a:hover {
+    background-color: #3a3a3aad;
+    color: white;
+  }
   
+  .topnav a.active {
+    background-color: darkred;
+    color: white;
+  }
+  
+  .eventHeader {
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    text-align: left;
+    position: relative;
+    left: 5%;
+  }
+
+/*--------event1----------*/
+
+  .event1 {
+    background-color: rgb(194, 194, 194);
+    padding-top: .5%;
+    padding-bottom: .5%;
+  }
+
+  #eventSubHeader1 {
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 5%;
+  }
+
+  #eventListing1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    left: 6%;
+  }
+
+  img#CCLogo {
+    display: block;
+    width: 15%;
+    height: 15%;
+    position: relative;
+    padding-left: 75%;
+  }
