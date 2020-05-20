@@ -6,6 +6,7 @@ html {
   max-width: 980px auto;
   margin-right: auto;
   margin-left: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,8 +30,7 @@ header {
   background-size: cover;
 }
 
-#anchor01 {
-  display: block;
+h3.anchor01 {
   position: relative;
   left: 25%;
   margin-left: 0;
@@ -44,6 +44,15 @@ header {
   text-align: center;
   font-weight: lighter;
   max-width: 980px auto;
+  animation: mymove .9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 25px;}
 }
 
 a {
@@ -116,7 +125,7 @@ a {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb07 2s infinite;
-    animation: sdb07 2s infinite;
+    animation: sdb07 1.5s infinite;
     opacity: 0;
     box-sizing: border-box;
   }
@@ -125,12 +134,12 @@ a {
     animation-delay: 0s;
   }
   #section07 a span:nth-of-type(2) {
-    top: 34%;
+    top: 32%;
     -webkit-animation-delay: .15s;
     animation-delay: .15s;
   }
   #section07 a span:nth-of-type(3) {
-    top: 38%;
+    top: 34%;
     -webkit-animation-delay: .3s;
     animation-delay: .3s;
   }
@@ -341,20 +350,27 @@ h1 > p#galleryTitle {
 }
 
 .eventTable {
-  display: block;
+    display: block;
     position: relative;
     margin-bottom: 5%;
-    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 50%;
+    left: 25%;
     padding-top: 1%;
     padding-bottom: 0;
     text-align: center;
+    max-width: 980px auto;
 }
+
+
 
 table {
   display: block;
   position: relative;
   width: 50%;
   left: 25%;
+  padding-top: 5%;
 }
 
 th {
@@ -366,6 +382,7 @@ th {
 
 tr, td {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 tr, th, td {
@@ -404,18 +421,8 @@ footer > p {
   color: white;
   font-family: 'Permanent Marker';
   margin-bottom: 0;
-  padding-bottom: 0px;
-}
-
-footer > section#contact {
-  color: rgb(202, 202, 202);
-  background-color: black;
-  position: relative;
-  float: left;
-  left: 45%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  margin-bottom: 0px;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 .galleryLeft {
