@@ -21,11 +21,46 @@ header {
   margin: 0px;
   max-width: 980px auto;
 }
+<<<<<<< HEAD
+=======
 
   a {
     font-family: 'Permanent Marker';
   }
   
+  
+/* Navigation Bar*/
+>>>>>>> c2795919afea233ec2cfdbd4fff1d2aad6daf90c
+
+.topnav > img#skyline {
+  max-width: auto;
+  max-height: 45px;
+  float: right;
+  padding-right: 10px;
+  position: relative;
+  right: 1%;
+  top: 5px;
+  display: block;
+}
+
+.topnav > p {
+  color: white;
+  float: right;
+  padding-right: 5%;
+  font-family: 'Permanent Marker';
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-width: 980px auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+<<<<<<< HEAD
   /* Navigation Bar*/
 
 .topnav > img#skyline {
@@ -65,6 +100,17 @@ header {
     font-size: 17px;
   }
   
+=======
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+>>>>>>> c2795919afea233ec2cfdbd4fff1d2aad6daf90c
   .topnav a:hover {
     background-color: #3a3a3aad;
     color: white;
@@ -74,6 +120,10 @@ header {
     background-color: darkred;
     color: white;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2795919afea233ec2cfdbd4fff1d2aad6daf90c
   
   .eventHeader {
     font-family: 'Permanent Marker';
