@@ -30,21 +30,19 @@ header {
 /*------------------------- Navigation Bar---------------------*/
 
 .topnav > img#skyline {
-  max-width: auto;
-  max-height: 45px;
+  width: 8%;
+  height: auto;
   float: right;
-  padding-right: 10px;
-  position: relative;
-  right: 1%;
-  top: 5px;
-  display: block;
+  padding-top: 2px;
 }
 
 .topnav > p {
   color: white;
   float: right;
-  padding-right: 5%;
   font-family: 'Permanent Marker';
+  font-size: 1vw;
+  padding: 0;
+  padding-right: 1%;
 }
 
 .topnav {
@@ -61,9 +59,9 @@ header {
     float: left;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1vw;
   }
   
   .topnav a:hover {
@@ -83,6 +81,7 @@ header {
     position: relative;
     left: 0;
     margin-left: 6.25%;
+    font-size: 2vw;
   }
 
 /*----------------------------------Event Tiles---------------------*/
@@ -94,7 +93,7 @@ div {
 .text4, .text5, .text6,
 .text7, .text8 {
   color: white;
-  font-size: 1em;
+  font-size: 1vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
 
@@ -107,10 +106,10 @@ div {
   right: 20px;
   background-color: rgba(139, 0, 0, 0.575);
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
   font-family: 'Permanent Marker';
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: lighter;
 }
 
@@ -464,7 +463,8 @@ footer {
 footer > img {
   display: block;
   padding-top: 5%;
-  max-width: 100%;
+  width: 15%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: black;
@@ -480,4 +480,5 @@ footer > p {
   margin-bottom: 0;
   padding-top: 3%;
   padding-bottom: 2%;
+  font-size: 1vw;
 }
