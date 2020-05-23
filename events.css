@@ -96,8 +96,6 @@ div {
   font-size: 1vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
-
-
 }
 
 .title1 {
@@ -442,9 +440,43 @@ div {
 }
 
 
+/*---------All Upcoming Events Table--------*/
 
+#allEventsHeader {
+  font-family: 'Permanent Marker';
+  font-weight: lighter;
+  font-size: 2vw;
+  position: absolute;
+  left: 0;
+  text-align: left;
+  margin-left: 6.25%;
+  padding-top: 2%;
+}
 
+table {
+  font-family: 'Permanent Marker';
+  font-weight: lighter;
+  font-size: 2vw;
+  position: absolute;
+  left: 0;
+  text-align: left;
+  margin-left: 6.25%;
+  padding-top: 30%;
+  border-collapse: collapse;
+}
 
+th {
+  padding-right: 75%;
+  font-weight: lighter;
+}
+
+tr, td {
+  font-size: 1.3vw;
+}
+
+tr:nth-of-type(odd){
+  background-color: rgba(105, 105, 105, 0.74);
+}
 
 
 
@@ -456,8 +488,8 @@ footer {
   margin-bottom: 0px;
   max-width: 100%;
   background-color: black;
-  
-  
+  position: relative;
+  bottom: -1000px;
 }
 
 footer > img {
