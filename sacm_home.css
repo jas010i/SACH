@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-size: auto;
   margin: 0px;
