@@ -471,7 +471,7 @@ footer > p {
 
 #photoSubmission {
   display: block;
-  font-size: 2vw;
+  font-size: 1.3vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-justify: distribute-all-lines;
   text-align: center;
@@ -486,7 +486,7 @@ footer > p {
   color: white;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 
@@ -501,7 +501,7 @@ footer > p {
     width: 50%;
     max-width: 980px auto;
     text-align: center;
-    font-size: .7vw;
+    font-size: 1vw;
 }
 
 button {

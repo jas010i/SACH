@@ -112,7 +112,7 @@ header {
     position: relative;
     left: 0;
     margin-left: 6.25%;
-    font-size: 1vw;
+    font-size: 2vw;
   }
 
 /*----------------------------------Event Tiles---------------------*/
@@ -470,42 +470,55 @@ div {
   transform: translate(-50%, -50%);
 }
 
+#hr001 {
+  width: 80%;
+  border: 3px solid black;
+}
 
 /*---------All Upcoming Events Table--------*/
 
 #allEventsHeader {
   font-family: 'Permanent Marker';
   font-weight: lighter;
-  font-size: 1vw;
-  position: absolute;
-  left: 0;
-  text-align: left;
-  margin-left: 6.25%;
-  padding-top: 2%;
+  font-size: 3vw;
+  position: relative;
+  margin-top: 3%;
+  left: 32%;
 }
 
 table {
   font-family: 'Permanent Marker';
   font-weight: lighter;
-  font-size: 1vw;
-  position: absolute;
-  left: 0;
   text-align: left;
-  margin-left: 6.25%;
-  padding-top: 30%;
   border-collapse: collapse;
+  margin-top: 4%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+  position: absolute;
+  left: 10%;
 }
 
 th {
   font-weight: lighter;
+  font-size: 2vw;
+  width: 100%;
+  padding-right: 25%;
+  background-color: black;
+  color: white;
+  font-family: 'Permanent Marker';
 }
 
 tr, td {
-  font-size: 1vw;
+  font-size: 1.3vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 tr:nth-of-type(odd){
-  background-color: rgba(105, 105, 105, 0.74);
+  background-color: rgba(105, 105, 105, 0.336);
 }
 
 
@@ -519,7 +532,7 @@ footer {
   max-width: 100%;
   background-color: black;
   position: relative;
-  bottom: -1000px;
+  bottom: -500px;
 }
 
 footer > img {
