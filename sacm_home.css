@@ -133,13 +133,14 @@ a {
     #section07 {
       display: none;
     }
-   .topnav > img#skyline {
+    .topnav > img#skyline {
       display: block;
       position: absolute;
-      margin-left: 47%;
-      padding-top: 3%;
+      margin-left: 37.5%;
+      padding-top: .5%;
       padding-bottom: 4%;
-      width: 12%;
+      width: 25%;
+  }
     }
     .topnav > p {
       display: none;
