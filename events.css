@@ -45,7 +45,7 @@ header {
   color: white;
   float: right;
   font-family: 'Permanent Marker';
-  font-size: 1vw;
+  font-size: 14px;
   padding: 0;
   padding-right: 1%;
 }
@@ -66,7 +66,7 @@ header {
     text-align: center;
     padding: 1%;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 14px;
   }
   
   .topnav a:hover {
@@ -83,12 +83,34 @@ header {
     display: none;
   }
 
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: left;
-      display: block;
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+        padding-top: 3%;
+        padding-bottom: 3%;
+      }
+      .topnav a.active {
+        padding: 3%;
+      }
+     .topnav > img#skyline {
+        display: block;
+        position: absolute;
+        margin-left: 47%;
+        padding-top: 3%;
+        padding-bottom: 4%;
+        width: 12%;
     }
+    .topnav > p {
+      display: none;
+    }
+    .topnav a {
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+  }
+  @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -101,11 +123,6 @@ header {
       text-align: left;
     }
   }
-  @media screen and (max-width: 600px) {
-    .topnav > img#skyline{
-      display: none;
-    }
-  }
   
   .eventHeader {
     font-family: 'Permanent Marker';
@@ -114,7 +131,7 @@ header {
     position: relative;
     left: 0;
     margin-left: 6.25%;
-    font-size: 2vw;
+    font-size: 16px;
   }
 
 /*----------------------------------Event Tiles---------------------*/
@@ -126,7 +143,7 @@ div {
 .text4, .text5, .text6,
 .text7, .text8 {
   color: white;
-  font-size: 1vw;
+  font-size: 14px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
 }
@@ -140,7 +157,7 @@ div {
   padding-left: 7px;
   padding-right: 7px;
   font-family: 'Permanent Marker';
-  font-size: 1vw;
+  font-size: 16px;
   font-weight: lighter;
 }
 
@@ -482,7 +499,7 @@ div {
 #allEventsHeader {
   font-family: 'Permanent Marker';
   font-weight: lighter;
-  font-size: 3vw;
+  font-size: 18px;
   position: relative;
   margin-top: 3%;
   left: 32%;
@@ -503,7 +520,7 @@ table {
 
 th {
   font-weight: lighter;
-  font-size: 2vw;
+  font-size: 16px;
   width: 100%;
   padding-right: 25%;
   background-color: black;
@@ -512,7 +529,7 @@ th {
 }
 
 tr, td {
-  font-size: 1.3vw;
+  font-size: 14px;
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -557,5 +574,5 @@ footer > p {
   margin-bottom: 0;
   padding-top: 3%;
   padding-bottom: 2%;
-  font-size: 1vw;
+  font-size: 14px;
 }
