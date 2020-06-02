@@ -118,8 +118,7 @@ a {
     .topnav a.icon {
       float: right;
       display: block;
-      padding-top: 3%;
-      padding-bottom: 3%;
+      padding: 3%;
     }
     .topnav a.active {
       padding: 3%;
