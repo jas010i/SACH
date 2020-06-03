@@ -140,6 +140,10 @@ a {
       padding-bottom: 4%;
       width: 25%;
   }
+    .topnav a {
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
     .topnav > p {
       display: none;
     }

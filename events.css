@@ -109,7 +109,7 @@ header {
       padding-bottom: 3%;
     }
     div {
-      display: block;
+      display: inline-block;
     }
     
     div > .eventHeader {
@@ -119,7 +119,7 @@ header {
       position: relative;
       left: 0;
       margin-left: 6.25%;
-      font-size: 20px;
+      font-size: 22px;
     }
    div > .text1, .text2, .text3,
     .text4, .text5, .text6,
@@ -484,8 +484,15 @@ header {
     }
     
     div >  #hr001 {
-      width: 80%;
-      border: 3px solid black;
+      float: left;
+      width: 75%;
+      border: 1px solid black;
+    }
+
+    div > #hr002 {
+      float: left;
+      width: 85%;
+      border: 2px solid black;
     }
     
     /*---------All Upcoming Events Table--------*/
@@ -493,17 +500,16 @@ header {
     div >  #allEventsHeader {
       font-family: 'Permanent Marker';
       font-weight: lighter;
-      font-size: 18px;
+      font-size: 24px;
       position: relative;
       margin-top: 3%;
-      left: 10%;
+      left: 20%;
     }
     
     div >  table {
       display: block;
       font-family: 'Permanent Marker';
       font-weight: lighter;
-      text-align: left;
       border-collapse: collapse;
       margin-top: 4%;
       width: 80%;
@@ -512,6 +518,8 @@ header {
     }
     
     div >  th {
+      text-align: center;
+      padding-right: 0;
       font-weight: lighter;
       font-size: 16px;
       background-color: black;
@@ -520,6 +528,7 @@ header {
     }
     
     div >  tr, td {
+      text-align: center;
       font-size: 14px;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -925,6 +934,12 @@ div {
   position: relative;
   margin-top: 3%;
   left: 32%;
+}
+
+#hr002 {
+  width: 90%;
+  float: left;
+  border: 3px solid black;
 }
 
 table {
