@@ -512,6 +512,8 @@ header {
       font-weight: lighter;
       border-collapse: collapse;
       margin-top: 4%;
+      margin-left: 0;
+      margin-right: 0;
       width: 80%;
       position: relative;
       left: 10%;
@@ -945,7 +947,7 @@ div {
 table {
   font-family: 'Permanent Marker';
   font-weight: lighter;
-  text-align: left;
+  text-align: center;
   border-collapse: collapse;
   margin-top: 4%;
   margin-left: 0;
@@ -959,7 +961,6 @@ th {
   font-weight: lighter;
   font-size: 16px;
   width: 100%;
-  padding-right: 25%;
   background-color: black;
   color: white;
   font-family: 'Permanent Marker';
