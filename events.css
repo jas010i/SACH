@@ -112,6 +112,15 @@ header {
       display: block;
     }
     
+    div > .eventHeader {
+      font-family: 'Permanent Marker';
+      font-weight: lighter;
+      text-align: left;
+      position: relative;
+      left: 0;
+      margin-left: 6.25%;
+      font-size: 20px;
+    }
    div > .text1, .text2, .text3,
     .text4, .text5, .text6,
     .text7, .text8 {
@@ -135,7 +144,7 @@ header {
     }
     
    div > .container1 {
-     padding-top: 5%;
+     margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -177,7 +186,7 @@ header {
     /*next tile*/
     
     div >  .container2 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -220,7 +229,7 @@ header {
     /*next tile*/
     
     div >  .container3 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -263,7 +272,7 @@ header {
     /*next tile - second row*/
     
     div >  .container4 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -306,7 +315,7 @@ header {
     /*next tile*/
     
     div >  .container5 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -349,7 +358,7 @@ header {
     /*next tile*/
     
     div >  .container6 {
-      padding-top: 5%;
+      margin-top: 5%;
       position: relative;
       width: 80%;
       left: 10%;
@@ -391,7 +400,7 @@ header {
     /*next tile - third row*/
     
     div >   .container7 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
@@ -434,7 +443,7 @@ header {
     /*next tile*/
     
     div >  .container8 {
-      padding-top: 5%;
+      margin-top: 5%;
       display: block;
       position: relative;
       width: 80%;
