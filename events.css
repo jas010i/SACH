@@ -506,9 +506,9 @@ header {
       text-align: left;
       border-collapse: collapse;
       margin-top: 4%;
-      width: 75%;
+      width: 80%;
       position: relative;
-      left: 1%;
+      left: 10%;
     }
     
     div >  th {
