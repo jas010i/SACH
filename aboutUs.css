@@ -110,7 +110,7 @@ html {
         font-family: 'Permanent Marker';
         padding-left: 10%;
         margin-right: 10%;
-    }
+     }
     }
       @media screen and (max-width: 600px) {
         .topnav.responsive {position: relative;}
@@ -158,7 +158,7 @@ html {
           color: white;
           background-color: black;
           font-weight: lighter;
-          margin-right: 60%;
+          margin-right: 62%;
           padding-left: 2%;
       }
 
