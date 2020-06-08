@@ -323,7 +323,7 @@ a {
     margin-bottom: 5%;
     width:75%;
   }
-  div > button {
+  div > a#button {
     display: block;
       position: relative;
       left: 10%;
@@ -717,7 +717,7 @@ footer > p {
     font-size: 12px;
 }
 
-button {
+#button {
   display: block;
     position: relative;
     left: 25%;
@@ -734,9 +734,11 @@ button {
     max-width: 980px auto;
     font-size: 16px;
     border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
 }
 
-button:hover {
+#button:hover {
   background-color: black;
   color: white;
   border: 4px solid rgb(212, 212, 212);

@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 500px;
+    max-width: 100%;
+    background-color: black;
+    
+    
+  }
+  
+  footer > img {
+    display: block;
+    padding-top: 5%;
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+  }
+  
+  footer > p {
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Permanent Marker';
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 16px;
+  }
