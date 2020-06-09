@@ -150,6 +150,11 @@ a {
     #break {
       display: none;
     }
+
+iframe > #twitter-widget-0 {
+  width: 75%;
+  margin-left: 12.5%;
+}
     .eventTable {
       display: block;
       position: relative;
