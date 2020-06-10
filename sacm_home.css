@@ -55,6 +55,24 @@ h3.anchor01 {
   font-size: 16px;
 }
 
+.Live > p {
+  font-family: 'Permanent Marker';
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: center;
+}
+
+div.Live {
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+}
+
+ .twitter-timeline {
+  margin-left: 0;
+  width: 100%;
+}
+
 @keyframes mymove {
   from {top: 0px;}
   to {top: 25px;}
@@ -150,11 +168,17 @@ a {
     #break {
       display: none;
     }
-
-iframe > #twitter-widget-0 {
-  width: 75%;
-  margin-left: 12.5%;
+div.Live {
+  width: 90%;
+  float: left;
+  margin-left: 5%;
 }
+
+ .twitter-timeline {
+  margin-left: 0;
+  width: 100%;
+}
+
     .eventTable {
       display: block;
       position: relative;
@@ -167,11 +191,10 @@ iframe > #twitter-widget-0 {
       font-size: 16px;
   }
  .eventTable > table {
-    display: block;
     position: relative;
     padding-top: 5%;
-    width: 100%;
-    left: 0;
+    width: 90%;
+    left: 5%;
   }
   
   th {
@@ -614,7 +637,6 @@ h1 > p#galleryTitle {
 
 
 table {
-  display: block;
   position: relative;
   width: 50%;
   left: 25%;
