@@ -91,6 +91,41 @@ a {
       .topnav a.active {
         padding: 3%;
       }
+/* ------------------------CLUB TILES ---------*/
+      .fry1 {
+          display: inline-block;
+        position: relative;
+        width: 25%;
+        left: 12.5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        border: 1px solid black;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          border-right: 1px solid rgb(134, 134, 134);
+          border-bottom: 1px solid rgb(134, 134, 134);
+          text-align: center;
+      }
+
+    .fry1:hover {
+        background-color: #ccc;
+    }
+    .fry2 {
+        display: inline-block;
+        position: relative;
+        width: 25%;
+        left: 37.5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        border: 1px solid black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-right: 1px solid rgb(134, 134, 134);
+        border-bottom: 1px solid rgb(134, 134, 134);
+        text-align: center;
+    }
+
+  .fry2:hover {
+      background-color: #ccc;
+  }
   }
     
   
@@ -106,6 +141,9 @@ a {
         display: block;
         text-align: left;
       }
+
+   
+
     }
 
 
