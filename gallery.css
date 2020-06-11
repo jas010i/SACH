@@ -129,6 +129,7 @@ div > #galleryDesc {
     margin-top: 5%;
     margin-left: 6%;
     width: 25%;
+    height: 25%;
     border: 1px solid #ccc;
 }
 
@@ -144,6 +145,29 @@ div > #galleryDesc > p {
     background-color: black;
     margin-bottom: 0;
 }
+div.galleryLeft {
+  display: block;
+  position: relative;
+  left: 12.5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  width:75%;
+}
+div > a#button {
+  display: block;
+    position: relative;
+    left: 10%;
+    margin-bottom: 5%;
+    width:80%;
+    background-color:white;
+    color: black;
+    border: 4px solid black;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
   
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -165,7 +189,7 @@ div > #galleryDesc > p {
     max-width: 100%;
     background-color: black;
     position: relative;
-    bottom: -200px;
+    bottom: -100px;
   }
   
   footer > img {
