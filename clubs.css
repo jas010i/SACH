@@ -110,7 +110,7 @@ a {
 
     .vl {
       border-left: 1px solid #ccc;
-      height: 600px;
+      height: 650px;
       left: 50%;
       position: absolute;
       top: 12.5%;
@@ -136,6 +136,12 @@ a {
       color: black;
       text-decoration: none;
     }
+    .fry1 > a > img {
+      width: 75%;
+      border-radius: 3px 3px 3px 3px;
+    }
+
+
     .fry2 {
         display: inline-block;
         position: relative;
