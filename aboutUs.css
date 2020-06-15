@@ -84,6 +84,8 @@ html {
           float: right;
           display: block;
           padding: 3%;
+          padding-left: 5%;
+          padding-right: 5%;
         }
         .topnav a.active {
           padding: 3%;
@@ -103,7 +105,21 @@ html {
         padding-top: 3%;
         padding-bottom: 3%;
       }
-
+      #borTopNav {
+        border-bottom: 1px solid #ccc;
+      }
+    
+.mobileNav {
+  display: block;
+  padding-left: 0;
+  background-color: rgb(17, 17, 17);
+}
+#mNhr {
+  display: none;
+  width: 100%;
+  color: #ccc;
+  padding-left: 0;
+}
       .main001 {
         font-size: 22px;
         font-weight: lighter;

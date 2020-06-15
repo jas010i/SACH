@@ -82,13 +82,20 @@ html {
     .topnav .icon {
       display: none;
     }
-  
+  #mNhr {
+    display: none;
+  }
+    .mobileNav{
+      display: none;
+    }
       @media screen and (max-width: 600px) {
         .topnav a:not(:first-child) {display: none;}
         .topnav a.icon {
           float: right;
           display: block;
           padding: 3%;
+          padding-left: 5%;
+          padding-right: 5%;
         }
         .topnav a.active {
           padding: 3%;
@@ -108,7 +115,23 @@ html {
         padding-top: 3%;
         padding-bottom: 3%;
       }
+    
+      #borTopNav {
+        border-bottom: 1px solid #ccc;
+      }
+    
+.mobileNav {
+  display: block;
+  padding-left: 0;
+  background-color: rgb(17, 17, 17);
+}
 
+#mNhr {
+  display: none;
+  width: 100%;
+  color: #ccc;
+  padding-left: 0;
+}
 #galleryHeader {
     text-align: center;
     font-family: 'Permanent Marker';

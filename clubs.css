@@ -56,7 +56,6 @@ a {
       position: relative;
       margin-left: auto;
       margin-right: auto;
-      background-position-x: ;
     }
     
     .topnav a {
@@ -88,6 +87,8 @@ a {
         float: right;
         display: block;
         padding: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
       }
       .topnav a.active {
         padding: 3%;
@@ -107,7 +108,21 @@ a {
       .topnav > p {
         display: none;
       }
-
+      #borTopNav {
+        border-bottom: 1px solid #ccc;
+      }
+    
+.mobileNav {
+  display: block;
+  padding-left: 0;
+  background-color: rgb(17, 17, 17);
+}
+#mNhr {
+  display: none;
+  width: 100%;
+  color: #ccc;
+  padding-left: 0;
+}
     .vl {
       border-left: 1px solid #ccc;
       height: 650px;
