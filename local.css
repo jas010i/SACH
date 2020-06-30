@@ -138,32 +138,74 @@ html {
           font-size: 25px;
           margin-top: 10%;
       }
-      
+
+
+
+
+
+
+      /*---------Menu List for Local Mechanics--------*/
+
+
+    div.shell > .tile > img {
+        display: block;
+        top: 5%;
+        width: 100%;
+        filter: brightness(25%);
+    }
+
+    div.shell > div.tile > p#engine {
+        position: absolute;
+        top: 30%;
+        left: 36%;
+        font-family: 'Permanent Marker';
+        font-weight: lighter;
+        font-size: 40px;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    div.shell > .tile > img:hover {
+        filter: brightness(75%);
+    }
+/*---------TRANSMISSION----*/
+
+div.shell > div.tile > p#transmission {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*-------Exhaust------*/
+
+div.shell > div.tile > p#exhaust {
+    position: absolute;
+    top: 155%;
+    left: 35%;
+    font-family: 'Permanent Marker';
+    font-weight: lighter;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
           
-      div.burger > #fries > img {
-          width: 25%;
-          height: auto;
-          position: relative;
-          left: 10%;
-          filter: blur(1px);
-          filter: brightness(25%);
-      }
-
-      div.burger > #fries > img:hover {
-        filter: brightness(35%);
-      }
-
-      div.burger > #fries > #ketchup > p {
-          position: absolute;
-          top: 30%;
-          left: 17%;
-          color: white;
-          font-family: 'Permanent Marker';
-          font-weight: lighter;
-        }
       
-    
-      footer {
+      
+      /*----------END OF MENU TILES----------*/
+          footer {
         margin-bottom: 0px;
         max-width: 100%;
         background-color: black;
