@@ -139,7 +139,15 @@ html {
           margin-top: 10%;
       }
 
-
+h1 {
+  font-family: 'Permanent Marker';
+  font-weight: lighter;
+  color: black;
+  font-size: 28px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -154,48 +162,15 @@ html {
         filter: brightness(25%);
     }
 
-    div.shell > div.tile > p#engine {
-        position: absolute;
-        top: 30%;
-        left: 36%;
-        font-family: 'Permanent Marker';
-        font-weight: lighter;
-        font-size: 40px;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
 
     div.shell > .tile > img:hover {
-        filter: brightness(75%);
+        filter: brightness(100%);
     }
 /*---------TRANSMISSION----*/
 
-div.shell > div.tile > p#transmission {
-    position: absolute;
-    top: 90%;
-    left: 25%;
-    font-family: 'Permanent Marker';
-    font-weight: lighter;
-    font-size: 40px;
-    color: white;
-    padding: 0;
-    margin: 0;
-}
 
 /*-------Exhaust------*/
 
-div.shell > div.tile > p#exhaust {
-    position: absolute;
-    top: 155%;
-    left: 35%;
-    font-family: 'Permanent Marker';
-    font-weight: lighter;
-    font-size: 40px;
-    color: white;
-    padding: 0;
-    margin: 0;
-}
 
 
 
