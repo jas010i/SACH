@@ -12,9 +12,9 @@
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
     <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
-   
+
+
     <script src="sacm_home.js"></script>
 
     
@@ -41,38 +41,59 @@
               </a>
               <img src="SACH_LOGO.png" alt="SACH_LOGO" id="skyline">
         </div>
-
 </header>
         
 <!--BEGIN MENU TITLES FOR LOCAL MECHANICS-->
 
-    <div class="shell">
-        <div class="tile" class="accordion">
-            <button>
-            <img src="gallery/IMG_0898.JPG">
-            </button>
-        </div>
-            <div class="panel">
-                <p>Lorem ipsum...</p>
-            </div>
-        <div class="tile" class="accordion">
-            <button>
-            <img src="gallery/transmission.jpg">
-            </button>
-        </div>
-        <div class="panel">
-            <p>Lorem ipsum...</p>
-        </div>
-        <div class="tile" class="accordion">
-            <button>
-            <img src="gallery/IMG_0894.JPG">
-            </button>
-        </div>
-        <div class="panel">
-            <p>Lorem ipsum...</p>
-        </div>
-    </div>
+<button class="tablink" onclick="openPage('engine', this, 'red')">Engine</button>
+<button class="tablink" onclick="openPage('transmission', this, 'red')" id="defaultOpen">Transmission</button>
+<button class="tablink" onclick="openPage('exhaust', this, 'red')">Exhaust</button>
+<button class="tablink" onclick="openPage('tuning', this, 'red')">Tuning</button>
+<button class="tablink" onclick="openPage('tires', this, 'red')">Tires</button>
+<button class="tablink" onclick="openPage('maint', this, 'red')">Maintenance</button>
+<button class="tablink" onclick="openPage('body', this, 'red')">Body Repair</button>
+<button class="tablink" onclick="openPage('detail', this, 'red')">Detailing</button>
 
+
+<div id="engine" class="tabcontent">
+  <h3>Engine</h3>
+  <p>Lorem ipsum...</p>
+</div>
+
+<div id="transmission" class="tabcontent">
+  <h3>Transmission</h3>
+  <p>Lorem ipsum...</p>
+</div>
+
+<div id="exhaust" class="tabcontent">
+  <h3>Exhaust</h3>
+  <p>Lorem ipsum...</p>
+</div>
+
+<div id="tuning" class="tabcontent">
+  <h3>Tuning</h3>
+  <p>Lorem ipsum...</p>
+</div>
+
+<div id="tires" class="tabcontent">
+  <h3>Tires</h3>
+  <p>Lorem ipsum...</p>
+</div>
+
+<div id="maint" class="tabcontent">
+    <h3>Maintenance</h3>
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <div id="body" class="tabcontent">
+    <h3>Body Repair</h3>
+    <p>Lorem ipsum...</p>
+  </div>
+
+  <div id="detail" class="tabcontent">
+    <h3>Detailing</h3>
+    <p>Lorem ipsum...</p>
+  </div>
        
        
        

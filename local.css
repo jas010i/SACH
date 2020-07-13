@@ -154,61 +154,52 @@ h1 {
 
       /*---------Menu List for Local Mechanics--------*/
 
-      .accordion {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        outline: none;
-        transition: 0.4s;
-      }
+  /* Set height of body and the document to 100% to enable "full page tabs" */
 
-      .active, .accordion:hover {
-        background-color: #ccc;
-      }
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 3%;
+  font-size: 17px;
+  width: 25%;
+}
 
-      .panel {
-        padding: 0 18px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-      }
+.tablink:hover {
+  background-color: #777;
+}
 
 
-    div.shell > .tile > button img {
-        display: block;
-        top: 5%;
-        width: 100%;
-        filter: brightness(25%);
-        border: none;
-        background-color: rgb(7, 7, 7);
-        padding: 0;
-    }
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  background-color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
 
-
-    div.shell > .tile > button img:hover {
-        filter: brightness(100%);
-    }
-/*---------TRANSMISSION----*/
-
-
-/*-------Exhaust------*/
+h3 {
+  font-family: 'Permanent Marker';
+  font-weight: lighter;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
 
 
 
 
 
 
-          
-      
       
       /*----------END OF MENU TILES----------*/
           footer {
-        margin-bottom: 0px;
+        margin-bottom: -150px;
         max-width: 100%;
         background-color: black;
       }
