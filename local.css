@@ -212,10 +212,7 @@ div#engine > p > a {
   font-weight: bolder;
 }
 
-div#engine > p > a:hover {
-  cursor: pointer;
-  color: darkblue;
-}
+
 
 
 div#engine > img {
@@ -238,6 +235,12 @@ div#engine > hr {
   color: darkred;
 }
 
+.blueText {
+  color: blue;
+}
+.blueText:hover {
+  color: darkred;
+}
 
 
 
