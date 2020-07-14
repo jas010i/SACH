@@ -196,6 +196,7 @@ h3 {
 
 div#engine {
  width: 100%;
+ display: block;
 }
 
 div#engine > p {
