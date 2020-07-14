@@ -80,6 +80,8 @@ html {
       display: none;
     }
   
+    
+
     @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
@@ -154,7 +156,6 @@ h1 {
 
       /*---------Menu List for Local Mechanics--------*/
 
-  /* Set height of body and the document to 100% to enable "full page tabs" */
 
 /* Style tab links */
 .tablink {
@@ -177,7 +178,6 @@ h1 {
 }
 
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: black;
   background-color: white;
