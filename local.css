@@ -201,12 +201,14 @@ div#engine {
 div#engine > p {
   width: 100%;
   margin: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 div#engine > p > a {
   color: black;
   text-decoration: none;
-  font-size: 3vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
 }
 
 div#engine > p > a:hover {
@@ -216,7 +218,10 @@ div#engine > p > a:hover {
 
 
 div#engine > img {
-  margin-left: 22%;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#engine > hr {
