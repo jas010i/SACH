@@ -194,6 +194,40 @@ h3 {
   text-align: center;
 }
 
+div#engine {
+ width: 100%;
+}
+
+div#engine > p {
+  width: 100%;
+  margin: 1%;
+}
+
+div#engine > p > a {
+  color: black;
+  text-decoration: none;
+  font-size: 3vw;
+}
+
+div#engine > p > a:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+
+
+div#engine > img {
+  margin-left: 22%;
+}
+
+div#engine > hr {
+  width: 80%;
+  margin-left: 10%;
+  color: #999;
+}
+
+.checked {
+  color: darkred;
+}
 
 
 
