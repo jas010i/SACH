@@ -162,6 +162,7 @@ div > #galleryDesc:hover {
 
 div > #galleryDesc > p {
     text-align: center;
+    font-size: 2vw;
     font-family: 'Permanent Marker';
     font-weight: lighter;
     color: white;

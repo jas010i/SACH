@@ -143,7 +143,7 @@ html {
       }
 
       .main001 {
-          font-size: 22px;
+          font-size: 4v2;
           font-weight: lighter;
           font-family: 'Permanent Marker';
           padding-left: 10%;
@@ -151,7 +151,7 @@ html {
       }
 
       .main002 {
-        font-size: 22px;
+        font-size: 4vw;
         font-weight: lighter;
         font-family: 'Permanent Marker';
         padding-left: 10%;
@@ -159,7 +159,7 @@ html {
     }
 
       p {
-          font-size: 16px;
+          font-size: 3vw;
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
 
@@ -172,6 +172,8 @@ html {
 
       #title001 {
           color: white;
+          font-size: 4vw;
+          border-radius: 7px 7px 7px 7px;
           background-color: black;
           font-weight: lighter;
           margin-right: 55%;
@@ -184,7 +186,7 @@ html {
 
     #myAvatar {
         display: inline-block;
-        border-radius: 6px 6px 6px 6px;
+        border-radius: 360px;
     }
       /*------------footer---------*/
 
