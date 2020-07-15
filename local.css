@@ -242,6 +242,26 @@ div#engine > hr {
   color: darkred;
 }
 
+table.shops {
+  margin-top: 5%;
+  width: 75%;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-size: 2vw;
+}
+
 
 
 
