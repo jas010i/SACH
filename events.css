@@ -134,10 +134,9 @@ background-color: rgb(65, 65, 65);
   display: block;
   color: rgb(168,2,2);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  left: 19%;
+  font-size: 4vw;
   width: 75%;
-  left: 12.5%;
-  margin-left: auto; 
-  margin-right: auto;
 }
 
     div > .eventHeader {
@@ -154,22 +153,23 @@ background-color: rgb(65, 65, 65);
     .text4, .text5, .text6,
     .text7, .text8 {
       color: white;
-      font-size: 14px;
+      font-size: 3vw;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       text-align: left;
     }
     
   div >  .title1 {
       position: absolute;
-      bottom: 20px;
-      right: 20px;
+      bottom: 2%;
+      right: 2%;
       background-color: rgba(139, 0, 0, 0.575);
       color: white;
       padding-left: 7px;
       padding-right: 7px;
       font-family: 'Permanent Marker';
-      font-size: 16px;
+      font-size: 3vw;
       font-weight: lighter;
+      letter-spacing: 2px;
     }
     
    div > .container1 {
