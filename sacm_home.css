@@ -696,6 +696,99 @@ h1 > p#galleryTitle {
 
 
   /*side bar information*/
+div.quickLink > a > img#ind12 {
+  display: block;
+  position: relative;
+  width: 100%;
+  right: 4%;
+  margin-bottom: 2%;
+  border: 1px solid black;
+  border-radius: 7px 7px 7px 7px;
+}
+div.quickLink > a > img#ind12:hover {
+  filter: drop-shadow(3px 3px black);
+}
+#inde12 {
+  position: absolute;
+  font-family: 'Permanent Marker';
+  font-size: 6vw;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  top: 5%;
+  left: 13%;
+  font-size: 6vw;
+  color: black;
+  background-color: white;
+  mix-blend-mode: screen;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+div.quickLink > a > img#ind13 {
+  display: block;
+  position: relative;
+  width: 100%;
+  right: 4%;
+  margin-bottom: 2%;
+  border: 1px solid black;
+  border-radius: 7px 7px 7px 7px;
+}
+div.quickLink > a > img#ind13:hover {
+  filter: drop-shadow(3px 3px black);
+}
+#inde13 {
+  position: absolute;
+  font-family: 'Permanent Marker';
+  font-size: 6vw;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  top: 39%;
+  left: 17%;
+  font-size: 6vw;
+  color: black;
+  background-color: white;
+  mix-blend-mode: screen;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+div.quickLink > a > img#ind14 {
+  display: block;
+  position: relative;
+  width: 100%;
+  right: 4%;
+  margin-bottom: 2%;
+  border: 1px solid black;
+  border-radius: 7px 7px 7px 7px;
+}
+div.quickLink > a > img#ind14:hover {
+  filter: drop-shadow(3px 3px black);
+}
+#inde14 {
+  position: absolute;
+  font-family: 'Permanent Marker';
+  font-size: 6vw;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  top: 73%;
+  left: 19%;
+  font-size: 6vw;
+  color: black;
+  background-color: white;
+  mix-blend-mode: screen;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+
 
 
   .galleryRight {
