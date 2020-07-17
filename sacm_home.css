@@ -183,7 +183,7 @@ padding-left: 0;
       display: none;
     }
     .alert {
-      display: block
+      display: block;
       position: -webkit-sticky;
       position: sticky;
       top: 0px;
@@ -729,7 +729,7 @@ div.quickLink > a > img#ind12 {
   width: 100%;
   right: 4%;
   margin-bottom: 2%;
-  border: 1px solid black;
+  border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
 }
 div.quickLink > a > img#ind12:hover {
@@ -759,7 +759,7 @@ div.quickLink > a > img#ind13 {
   width: 100%;
   right: 4%;
   margin-bottom: 2%;
-  border: 1px solid black;
+  border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
 }
 div.quickLink > a > img#ind13:hover {
@@ -789,7 +789,7 @@ div.quickLink > a > img#ind14 {
   width: 100%;
   right: 4%;
   margin-bottom: 2%;
-  border: 1px solid black;
+  border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
 }
 div.quickLink > a > img#ind14:hover {
