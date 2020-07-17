@@ -47,6 +47,11 @@ body {
 
 .gcse-search {
     background-color: black;
+    border: 2px solid black;
+}
+
+.gcse-search:focus {
+    border: 2px solid white;
 }
 
 
