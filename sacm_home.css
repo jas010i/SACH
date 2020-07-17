@@ -731,9 +731,10 @@ div.quickLink > a > img#ind12 {
   margin-bottom: 2%;
   border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
+  transition: transform 1s;
 }
 div.quickLink > a > img#ind12:hover {
-  filter: drop-shadow(3px 3px black);
+  transform: scale(1.1);
 }
 #inde12 {
   position: absolute;
@@ -761,9 +762,10 @@ div.quickLink > a > img#ind13 {
   margin-bottom: 2%;
   border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
+  transition: transform 1s;
 }
 div.quickLink > a > img#ind13:hover {
-  filter: drop-shadow(3px 3px black);
+  transform: scale(1.1);
 }
 #inde13 {
   position: absolute;
@@ -791,9 +793,10 @@ div.quickLink > a > img#ind14 {
   margin-bottom: 2%;
   border: 4px solid black;
   border-radius: 7px 7px 7px 7px;
+  transition: transform 1s;
 }
 div.quickLink > a > img#ind14:hover {
-  filter: drop-shadow(3px 3px black);
+  transform: scale(1.1);
 }
 #inde14 {
   position: absolute;
