@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSearchEngine id="isxvfu9nxms" creator="001721440625357231280" keywords="car, automotive, photography, clubs, social club, car parts, performance parts, racecar, race, street race, static, stance, bags, aired out" language="en" encoding="UTF-8" enable_promotions="true" cx_id="001721440625357231280:isxvfu9nxms" autocompletions="true">
+  <Title>SACARHUB</Title>
+  <Context>
+    <Facet>
+      <FacetItem>
+        <Label name="car_hub" mode="BOOST">
+          <Rewrite/>
+          <entities/>
+        </Label>
+        <Title>car hub</Title>
+      </FacetItem>
+    </Facet>
+    <BackgroundLabels>
+      <Label name="_cse_isxvfu9nxms" mode="FILTER"/>
+      <Label name="_cse_exclude_isxvfu9nxms" mode="ELIMINATE"/>
+    </BackgroundLabels>
+  </Context>
+  <LookAndFeel code="4" element_layout="2" theme="2" custom_theme="true" url_length="full" element_branding="hide" enable_cse_thumbnail="true" promotion_url_length="full" font="5">
+    <Logo url="https://jas010i.github.io/SACH/SACH_LOGO.png"/>
+    <Colors background="#000" border="#000"/>
+    <Promotions/>
+    <SearchControls input_border_color="#000" button_background_color="#80000B" button_icon_color="#FFF"/>
+    <Results/>
+  </LookAndFeel>
+  <ImageSearchSettings layout="2"/>
+  <sort_by_keys label="Relevance" key=""/>
+  <sort_by_keys label="Date" key="date"/>
+  <cse_advance_settings>
+    <web_search_options enable_history="true">
+      <search_restrict_args cr="countryUS" gl="us"/>
+    </web_search_options>
+    <image_advanced_options>
+      <search_restrict_args cr="countryUS" gl="us"/>
+    </image_advanced_options>
+  </cse_advance_settings>
+</CustomSearchEngine>
