@@ -50,9 +50,6 @@ body {
     border: 2px solid black;
 }
 
-.gcse-search:focus {
-    border: 2px solid white;
-}
 
 
 .pills {
@@ -87,13 +84,31 @@ body {
     background-color: white;
     border: 2px solid black;
     border-radius: 9px 9px 9px 9px;
-    transition: transform 1s;
+    transition: transform .5s;
 }
 
 .pills > a > img#par12:hover {
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
 
+.local-parts {
+    height: 400px;
+    overflow: scroll;
+    border: 4px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    color: white;
+}
+
+::-webkit-slider-thumb{
+    color: black;
+}
 .local-parts > #loc-sell {
     display: block;
     position: relative;
@@ -114,17 +129,17 @@ div.local-parts > a {
     margin-bottom: 1%;
     letter-spacing: 1px;
     padding: 2%;
-    background-color: rgb(173, 173, 173);
+    background-color: darkred;
     color: white;
     font-family: 'Permanent Marker';
     text-decoration: none;
     font-weight: 100;
     transition: transform .5s;
-    border: 1px solid rgb(65, 65, 65);
+    border: 2px solid black;
 }
 
 div.local-parts > a:hover {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(122, 122, 122);
     transform: scale(1.1);
 }
 
