@@ -264,7 +264,9 @@ div.Live {
   margin-left: auto;
   margin-right: auto;
 }
-
+.gsc-input-box {
+  background-color: black;
+}
 
 .contactForm {
   display: block;
