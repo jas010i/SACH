@@ -100,13 +100,10 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%%;
+    margin-top: 5%;
     margin-bottom: 7%;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
 .local-parts > #loc-sell {
     display: block;
     position: relative;
@@ -139,8 +136,6 @@ div.local-parts > a {
 div.local-parts > a:hover {
     background-color: rgb(122, 122, 122);
     transform: scale(1.1);
-}
-
 }
 
 
@@ -202,4 +197,4 @@ div.local-parts > a:hover {
         padding-bottom: 2%;
         font-size: 16px;
       }
-    
+}

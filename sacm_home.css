@@ -267,7 +267,7 @@ div.Live {
 
 
 .contactForm {
-  display: block;
+  display: none;
   position: relative;
   bottom: 50px;
   width: 80%;
