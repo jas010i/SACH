@@ -265,7 +265,19 @@ th, td {
   font-size: 2vw;
 }
 
+.close {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  color: black;
+  right: 2%;
+  width: 5%;
+  padding: 2%;
+}
 
+.close:hover {
+  color: white;
+}
 
 
 
