@@ -17,7 +17,7 @@ html {
     background-size: auto;
     margin: 0px;
     margin-bottom: 0px;
-    background-color: #555;
+    background-color: white;
   }
   
   header {
@@ -159,8 +159,8 @@ h1 {
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
+  background-color: white;
+  color: black;
   float: left;
   border: none;
   outline: none;
@@ -168,13 +168,13 @@ h1 {
   padding: 3%;
   font-size: 3vw;
   margin: 0;
-  width: 25%;
+  width: 33.3333%;
   font-family: 'Permanent Marker';
 }
-}
+    }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: rgb(214, 214, 214);
 }
 
 
@@ -183,6 +183,7 @@ h1 {
   background-color: white;
   display: none;
   padding: 100px 20px;
+  margin-top: 5%;
   height: 100%;
 }
 
@@ -190,7 +191,10 @@ h3 {
   font-family: 'Permanent Marker';
   font-weight: lighter;
   color: white;
+  position: relative;
   background-color: black;
+  width: 50%;
+  left: 25%;
   text-align: center;
 }
 
@@ -247,8 +251,8 @@ div#engine > hr {
 }
 
 table.shops {
-  width: 100%;
-  left: 0;
+  width: 80%;
+  left: 10%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -263,6 +267,11 @@ th, td {
   padding-right: 5%;
   text-align: center;
   font-size: 2vw;
+}
+
+td {
+  background-color: white;
+  color: black;
 }
 
 .close {
@@ -305,12 +314,12 @@ div > .overlay {
   display: block;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10%;
   right: 0;
   background-color: rgba(139, 0, 0, 0.904);
   color: white;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   height:0;
   transition: .5s ease;
 }
@@ -321,12 +330,13 @@ div > .container:hover .overlay {
   width: 95%;
   left:2.5%;
   top: -50%;
-  height: 200%;
+  height: 165%;
   border-radius: 7px 7px 7px 7px;
   border: 2px solid black;
 }
-
-
+div > .overlay > p {
+  padding-left: 10px;
+}
 
 /*---transmission tab----*/
 
