@@ -330,7 +330,7 @@ div > .container:hover .overlay {
   width: 95%;
   left:2.5%;
   top: -50%;
-  height: 165%;
+  height: 200%;
   border-radius: 7px 7px 7px 7px;
   border: 2px solid black;
 }
