@@ -193,7 +193,7 @@ h3 {
   background-color: black;
   text-align: center;
 }
-/*---------------------
+
 div#engine {
  width: 100%;
  display: block;
@@ -201,6 +201,7 @@ div#engine {
 
 div#engine > p {
   width: 100%;
+  text-decoration: none;
   margin: 2%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -232,14 +233,17 @@ div#engine > hr {
 }
 
 .checked {
-  color: darkred;
+  color: rgb(199, 150, 28);
 }
 
 .blueText {
-  color: blue;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .blueText:hover {
-  color: darkred;
+  color: rgb(122, 122, 122);
+  text-decoration: none;
+  text-shadow: black 5px;
 }
 
 table.shops {
@@ -260,46 +264,52 @@ th, td {
   text-align: center;
   font-size: 2vw;
 }
-----------*/
+
 
 
 
 
 div > .container {
- margin-top: 5%;
+  display: block;
+ margin-top: 10%;
+ margin-bottom: 10%;
   display: block;
   position: relative;
   width:90%;
+  height: 150px;
   left: 5%;
   border: 2px solid black;
-  border-radius: 7px 7px 7px 7px;;
+  border-radius: 7px 7px 7px 7px;
 }
 
 div >  img#engine {
   display: block;
   width: 100%;
   height: 100%;
-  transition: .7s ease;
 }
 
 
 div > .overlay {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(139, 0, 0, 0.904);
   color: white;
-  font-weight: bold;
   overflow: hidden;
   width: 100%;
   height:0;
-  transition: .8s ease;
+  transition: .5s ease;
 }
 
 div > .container:hover .overlay {
-  top: 0;
-  height: 150%;
+  transform: scale(1.2);
+  z-index: +1;
+  width: 95%;
+  left:2.5%;
+  top: -50%;
+  height: 200%;
   border-radius: 7px 7px 7px 7px;
   border: 2px solid black;
 }
