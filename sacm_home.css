@@ -119,16 +119,18 @@ a {
   }
 
   @media screen and (max-width: 700px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {display: none; transition: .7s ease-in-out;}
     .topnav a.icon {
       float: right;
       display: block;
       padding: 3%;
       padding-left: 5%;
       padding-right: 5%;
+      transition: .7s ease;
     }
     .topnav a.active {
       padding: 3%;
+      transition: .7s ease;
     }
     .fixed-bg {
       display: none;
@@ -146,23 +148,26 @@ a {
       padding-top: .5%;
       padding-bottom: 4%;
       width: 25%;
+      transition: .7s ease;
   }
     .topnav a {
       padding-top: 3%;
       padding-bottom: 3%;
+      transition: .7s ease;
     }
     .topnav > p {
       display: none;
     }
     #borTopNav {
       border-bottom: 1px solid #ccc;
+      transition: .7s ease;
     }
   
 .mobileNav {
 display: block;
 padding-left: 0;
   background-color: rgba(65, 65, 65, 0.788);
-  transition: .5s ease;
+  transition: .7s ease;
 }
 #mNhr {
   display: none;
@@ -500,10 +505,14 @@ fieldset > label {
 
 
   @media screen and (max-width: 700px) {
+
+    div.topnav.responsive {
+      transition: .7s ease;
+    }
     .topnav.responsive {
       position: fixed;
       width: 75%;
-      height: auto;
+      height: 100%;
       z-index: +3;
       right: 0;
       top: 0;
@@ -516,13 +525,33 @@ fieldset > label {
       transition: .7s ease;
     }
     
+    .topnav.responsive img#skyline {
+      width: 50%;
+      position: absolute;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: black;
+      transition: .7s ease;
+    }
+
+.responsive {
+  transition: .7s ease;
+  display: block;
+}
+
     .topnav.responsive a {
       float: none;
       display: block;
+      font-family: 'Permanent Marker';
+      text-rendering: optimizeLegibility;
       text-align: right;
       height: 50px;
       padding-right: 15%;
       transition: .7s ease;
+      letter-spacing: 2px;
+      font-weight: lighter;
+      font-size: 4vw;
     }
   }
 
@@ -737,13 +766,13 @@ div.quickLink > a > img#ind12 {
 div.quickLink > a > img#ind12:hover {
   transform: scale(1.1);
 }
-#inde12 {
+#inde12 a {
   position: absolute;
   font-family: 'Permanent Marker';
   font-size: 6vw;
   font-weight: lighter;
   letter-spacing: 2px;
-  top: 5%;
+  top: 11%;
   left: 13%;
   font-size: 6vw;
   color: black;
@@ -768,13 +797,13 @@ div.quickLink > a > img#ind13 {
 div.quickLink > a > img#ind13:hover {
   transform: scale(1.1);
 }
-#inde13 {
+#inde13 a {
   position: absolute;
   font-family: 'Permanent Marker';
   font-size: 6vw;
   font-weight: lighter;
   letter-spacing: 2px;
-  top: 39%;
+  top: 45%;
   left: 17%;
   font-size: 6vw;
   color: black;
@@ -799,13 +828,13 @@ div.quickLink > a > img#ind14 {
 div.quickLink > a > img#ind14:hover {
   transform: scale(1.1);
 }
-#inde14 {
+#inde14 a{
   position: absolute;
   font-family: 'Permanent Marker';
   font-size: 6vw;
   font-weight: lighter;
   letter-spacing: 2px;
-  top: 73%;
+  top: 80%;
   left: 19%;
   font-size: 6vw;
   color: black;
