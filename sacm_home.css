@@ -506,17 +506,15 @@ fieldset > label {
 
   @media screen and (max-width: 700px) {
 
-    div.topnav.responsive {
-      transition: .7s ease;
-    }
     .topnav.responsive {
       position: fixed;
       width: 75%;
-      height: 100%;
+      height: 95%;
       z-index: +3;
       right: 0;
       top: 0;
       transition: .7s ease;
+      box-shadow:20px 20px 0px 0px rgba(0, 0, 0, 0.404);
     }
     .topnav.responsive a.icon {
       position: absolute;
@@ -526,19 +524,18 @@ fieldset > label {
     }
     
     .topnav.responsive img#skyline {
-      width: 50%;
+      width: 100%;
       position: absolute;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
+      margin-right: 25%;
+      padding: 5%;
+      padding-left: 25%;
+      padding-right: 25%;
       background-color: black;
       transition: .7s ease;
     }
 
-.responsive {
-  transition: .7s ease;
-  display: block;
-}
 
     .topnav.responsive a {
       float: none;
@@ -546,7 +543,7 @@ fieldset > label {
       font-family: 'Permanent Marker';
       text-rendering: optimizeLegibility;
       text-align: right;
-      height: 50px;
+      height: 45px;
       padding-right: 15%;
       transition: .7s ease;
       letter-spacing: 2px;
