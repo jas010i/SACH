@@ -13,76 +13,7 @@ html {
     box-sizing: border-box;
   }
   
-  body {
-    background-size: auto;
-    margin: 0px;
-    margin-bottom: 0px;
-    background-color: white;
-  }
-  
-  header {
-    background-size: auto;
-    margin: 0px;
-    max-width: 980px auto;
-  }
-  
-  
-  a {
-    font-family: 'Permanent Marker';
-  }
-  
-  /* Navigation Bar*/
-  
-  .topnav > img#skyline {
-    width: 8%;
-    height: auto;
-    float: right;
-  }
-  
-  .topnav > p {
-    color: white;
-    float: right;
-    font-family: 'Permanent Marker';
-    font-size: 14px;
-    padding: 0;
-    padding-right: 1%;
-  }
-  
-  .topnav {
-      background-color: black;
-      overflow: hidden;
-      display: block;
-      position: relative;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .topnav a {
-      float: left;
-      color: #ffffff;
-      text-align: center;
-      padding: 1%;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    
-    .topnav a:hover {
-      background-color: #3a3a3aad;
-      color: white;
-    }
-    
-    .topnav a.active {
-      background-color: darkred;
-      color: white;
-    }
-  
-    .topnav .icon {
-      display: none;
-    }
-  
-    
-
-    @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
         float: right;
@@ -301,6 +232,7 @@ div > .container {
   left: 5%;
   border: 2px solid black;
   border-radius: 7px 7px 7px 7px;
+  transition: .7s ease;
 }
 
 div >  img#engine {
@@ -322,6 +254,11 @@ div > .overlay {
   width: 80%;
   height:0;
   transition: .5s ease;
+}
+
+div > .container:hover {
+  margin-bottom: 25%;
+  margin-top: 25%;
 }
 
 div > .container:hover .overlay {

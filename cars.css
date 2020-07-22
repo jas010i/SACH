@@ -64,6 +64,7 @@
       width: 22%;
       height: 75px;
       text-align: center;
+      border-radius: 7px 7px 7px 7px;
       margin: 1.5%;
       font-family: 'Permanent Marker';
       font-weight: lighter;
@@ -103,9 +104,10 @@
     }
     
     /* Add a dark background to the active button */
-    .btn.active {
+    .btn-active {
       background-color: #666;
       color: white;
+
     }
 
 
@@ -255,5 +257,5 @@ div.full-auto-list > .auto-section > a {
     padding-bottom: 2%;
     font-size: 16px;
   }
-}
+
 

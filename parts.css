@@ -36,6 +36,8 @@ body {
       #borTopNav {
         border-bottom: 1px solid #ccc;
       }
+
+      .topna
     
   .mobileNav {
   display: block;
@@ -138,6 +140,9 @@ div.local-parts > a:hover {
     transform: scale(1.1);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 .social {
     display: block;
