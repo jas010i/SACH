@@ -50,7 +50,6 @@ a {
   }
   
   .topnav {
-      background-color: black;
       overflow: hidden;
       display: block;
       position: relative;
@@ -191,7 +190,7 @@ a {
       .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: right;
       }
 
    

@@ -51,7 +51,6 @@ header {
 }
 
 .topnav {
-    background-color: black;
     overflow: hidden;
     display: block;
     position: relative;
@@ -582,7 +581,7 @@ background-color: rgb(65, 65, 65);
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: right;
     }
   }
   
