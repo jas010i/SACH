@@ -86,9 +86,12 @@ a {
 
 .topnav {
     background-color: rgba(0, 0, 0, 0.863);
-    overflow: hidden;
+    overflow: visible;
     display: block;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: +11;
+    top: 0;
     margin-left: auto;
     margin-right: auto;
     transition: .5s ease;
@@ -127,7 +130,9 @@ a {
   }
 
   @media screen and (max-width: 700px) {
-    .topnav a:not(:first-child) {display: none; transition: .7s ease-in-out;}
+    .topnav a:not(:first-child) {
+      display: none; 
+      transition: .7s ease-in-out;}
     .topnav a.icon {
       float: right;
       display: block;
