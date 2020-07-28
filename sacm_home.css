@@ -536,7 +536,7 @@ fieldset > label {
     .topnav.responsive {
       position: fixed;
       width: 75%;
-      height: auto;
+      height: 100%;
       z-index: +3;
       right: 0;
       margin-bottom: 0;
@@ -685,6 +685,13 @@ div.welcome {
   background-color: rgb(48, 48, 48);
   box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
 
+}
+
+div.partners > #par-vinylty > img{
+  width: 20%;
+  border-radius: 6px 6px 6px 6px;
+  left: 40%;
+  position: relative;
 }
 
 div.welcome h2 {
