@@ -504,16 +504,16 @@ fieldset > label {
   div.galleryRight {
     display: block;
     position: relative;
-    left: 12.5%;
+    left: 5%;
     margin-bottom: 5%;
-    width: 75%;
+    width: 90%;
   }
   div.galleryLeft {
     display: block;
     position: relative;
-    left: 12.5%;
+    left:5%;
     margin-bottom: 5%;
-    width:75%;
+    width:90%;
   }
   div > a#button {
     display: block;
@@ -775,11 +775,6 @@ div.welcome p {
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.24);
-    color: white;
-  }
   
   /* Number text (1/3 etc) */
   .numbertext {
@@ -956,12 +951,12 @@ div.quickLink > a > img#ind14:hover {
   .galleryRight {
     display: block;
     position: relative;
-    left: 25%;
+    left: 10%;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 5%;
     margin-top: 5%;
-    width: 50%;
+    width: 80%;
     padding-bottom: 0;
     max-width: 980px auto;
   }
@@ -1002,10 +997,26 @@ div.quickLink > a > img#ind14:hover {
 footer {
   margin-bottom: 0px;
   max-width: 100%;
-  background-color: black;
-  
-  
+  background-color: black; 
 }
+
+footer > div.footer-info > #footer-info-left > a{
+  position: relative;
+  font-size: 3vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(192, 192, 192);
+  float: left;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  right: 5%;
+  text-align: right;
+  text-decoration: none;
+}
+
+
 
 footer > img {
   display: block;
