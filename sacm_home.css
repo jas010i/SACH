@@ -990,6 +990,18 @@ div.quickLink > a > img#ind14:hover {
     line-height: 30px;
 }
 
+div#news-button-caption {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  background-color: rgb(116, 116, 116);
+  border: 1px solid rgb(167, 165, 165);
+}
+
+div#news-button-caption > a {
+ color: white;
+ text-decoration: none;
+}
 #break {
   color: black;
   width: 99%;
@@ -1000,10 +1012,11 @@ div.quickLink > a > img#ind14:hover {
 footer {
   margin-bottom: 0px;
   max-width: 100%;
+  padding-top: 10%;
   background-color: black; 
 }
 
-footer > div.footer-info > div#footer-info-left > a{
+footer > div#footer-info-left > a{
   position: relative;
   font-size: 3vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1011,20 +1024,21 @@ footer > div.footer-info > div#footer-info-left > a{
   float: left;
   margin-left: 60%;
   margin-right: 0;
+  z-index: +5;
   margin-top: 2%;
-  margin-bottom: 2%;
-  width: 30%;
-  text-align: right;
+  margin-bottom: 7%;
+  width: 80%;
+  text-align: left;
   text-decoration: none;
   padding: 2%;
   transition: ease .5s;
 }
  
-footer > div.footer-info > div#footer-info-left > a:hover{
+footer > div#footer-info-left > a:hover{
   background-color: rgba(109, 109, 109, 0.144);
 }
 
-footer > div.footer-info > div#footer-info-right > a{
+footer > div#footer-info-right > a{
   position: relative;
   font-size: 3vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1033,15 +1047,15 @@ footer > div.footer-info > div#footer-info-right > a{
   margin-left: 0;
   margin-right: 60%;
   margin-top: 2%;
-  margin-bottom: 2%;
-  width: 30%;
-  text-align: left;
+  margin-bottom: 7%;
+  width: 80%;
+  text-align: right;
   text-decoration: none;
   padding: 2%;
   transition: ease .5s;
 }
 
-footer > div.footer-info > div#footer-info-right > a:hover{
+footer > div#footer-info-right > a:hover{
   background-color: rgba(109, 109, 109, 0.144);
 }
 
