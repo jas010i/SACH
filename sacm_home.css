@@ -304,11 +304,12 @@ form .submit {
   background: rgb(204, 0, 0);
   border-color: transparent;
   color: white;
+  border: 1px solid rgb(204, 0, 0);
   font-size: 3vw;
 }
 
 form .submit:hover {
-  background-color: darkred;
+  background-color: rgb(231, 0, 0);
   cursor: pointer;
 }
 
