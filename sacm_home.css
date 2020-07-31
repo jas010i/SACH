@@ -279,40 +279,40 @@ div.Live {
 }
 
 
-.contactForm {
-  display: none;
-  position: relative;
-  bottom: 50px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+form {
+  margin-top: 50px;
+  transition: all 2s ease-in-out;
+  background-image: url(/event_tile\(blank\).png);
 }
 
-fieldset, legend {
-  border: 2px solid black;
+.form-control {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: rgb(54, 54, 54);
+  font-size: 3vw;
+  margin-bottom: 16px;
 }
 
-legend {
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: rgb(204, 0, 0);
+  border-color: transparent;
   color: white;
-  background-color: black;
-  font-family: 'Permanent Marker';
-  font-weight: lighter;
-  font-size: 2.5vw;
-  padding-right: 2%;
-  padding-left: 2%;
-  letter-spacing: 2px;
+  font-size: 3vw;
 }
 
-fieldset > label {
-  font-family: '-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+form .submit:hover {
+  background-color: darkred;
+  cursor: pointer;
 }
 
-#subCon {
-  color: black;
-  background-color: white;
-  border: 2px solid black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
-}
+
 .social > button#socialMed {
   background-color: white;
   width: 50%;
