@@ -211,7 +211,21 @@ div.club-group-submit > button:hover {
 
 /* CSS for form is pulled from sach_home.css */
 
+input.form-control {
+  border-color: rgb(117, 117, 117);
+  border: none;
+  border-radius: 0px;
+}
 
+textarea.form-control {
+  border-color: rgb(117, 117, 117);
+  border: none;
+  border-radius: 0px;
+}
+
+input.form-control .submit {
+  border-color: rgb(117, 117, 117);
+}
 
 
     footer {
