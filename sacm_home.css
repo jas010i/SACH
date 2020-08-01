@@ -292,6 +292,7 @@ form {
   border: none;
   outline: none;
   border-bottom: 1px solid gray;
+  border-radius: 0px;
   color: rgb(54, 54, 54);
   font-size: 3vw;
   margin-bottom: 16px;
