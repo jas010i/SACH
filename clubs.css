@@ -39,6 +39,7 @@ div#header-image {
 div#header-image > img {
   width: 25%;
   display: block;
+  padding-bottom: 10%;
   position: relative;
   margin-top: 10%;
   margin-left: 37.5%;

@@ -4,15 +4,24 @@
 
 
 @media screen and (max-width: 700px) {
+div#main-header {
+  padding-top: 5%;
+  position: relative;
+  top: 0;
+  margin-top: 0;
+  background-color: black;
+}
 
-div.main-header > img {
-    width: 100%;
-    display: block;
-    position: relative;
-    margin-top: 0;
-    padding-left: 25%;
-    padding-right: 25%;
-    background-color: black;
+
+div#main-header > img {
+  width: 25%;
+  display: block;
+  position: relative;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 37.5%;
+  background-color: black;
 }
 
 div.main-header > p#header-title {
