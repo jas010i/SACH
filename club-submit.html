@@ -63,18 +63,78 @@
 
 
 
+<div class="notice">
+    <h1>
+        Submit your request to create your club on San Antonio Car Hub
+    </h1>
+    <p>
+        By submitting a request to create your club you agree to displaying your club
+        information, and graphics on our website.
+        <br><br>
+        A submission does not gaurantee that your request will be approved. Please allow
+        2-3 business days for a final decision.
+        <br><br>
+        SACH, San Antonio Car Hub, reserves the right to deny any request without given
+        notice or reason. SACH reserves the right to revoke a clubs permission to be featured
+        on their website. 
+        <br><br>
+        SACH, San Antonio Car Hub, is not responsible for any liabilities or damages.<br>
+        By "submitting your request" you release SACH, San Antonio Car Hub from any legal
+        responsibilities and damages.
+        <br><br>SACH, San Antonio Car Hub all rights reserved. 2020.
+    </p>
+    <h3>
+        Please fill out the information below.
+    </h3>
+    <h4>'*' is required to be filled out.</h4>
+</div>
+
 
   <div class="contact-form">
-    <form id="contact-form" action="actionpage.php" method="post">
-    <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+    <form id="contact-form" action="mailto:jason@sacrhub.com" method="post">
+    <input name="name" type="text" class="form-control" placeholder="Your Name*" required>
     <br>
-    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
-    <br>  
+    <input name="email" type="email" class="form-control" placeholder="Your Email*" required>
+    <br>
+    <input name="club" type="text" class="form-control" placeholder="Your Club Name*" required>
+    <br>
+    <p style="margin-left: 2%;">Select your club 'join' type:*<br>
+    <input type="radio" id="open" name="club-type" value="open" required>
+        <label for="open">Open; No requirements to join.</label>
+    <input type="radio" id="closed" name="club-type" value="closed">
+        <label for="closed">Closed; Requirements to join.</label>
+    </p>
+    <br>
+        <p style="margin-left: 1%;">If closed, please list what requirements must be met:
+        <input type="text" class="form-control" name="req-list" placeholder="List here...">
+        </p>
+    <br>
+    <p style="margin-left: 2%;">Select your club 'vehicle' type:*<br>
+        <input type="radio" id="open" name="vehicle-open" value="open" required>
+            <label for="open">Open; No specific vehicle needed.</label>
+        <input type="radio" id="closed" name="vehicle-closed" value="closed">
+            <label for="closed">Closed; Must have required vehicle.</label>
+        </p>
+        <br>
+        <p style="margin-left: 1%;">If closed, please list what vehicles are allowed:
+        <input type="text" class="form-control" name="car-list" placeholder="List here...">
+        </p>
+        <br>
 
-          <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+    <input name="contact" type="text" class="form-control" placeholder="How can potential members contact you?* (Email, etc...)" required>
+    <br>
+    <input name="web" type="url" class="form-control" placeholder="Enter your website URL here (if applicable)">
+    <br>
+    <p style="margin-left: 2%;">Upload your club logo: (if applicable)
+    <input name="logo" type="file" class="form-control">
+    </p>
+    <br>
+    <br>
+    
+    <textarea name="message" class="form-control" placeholder="Tell us about your club.* (This information will be on the club page.)" row="4" required></textarea>
           <br>
 
-          <input type="submit" class="form-control submit" value="SEND MESSAGE">
+          <input type="submit" class="form-control submit" value="SUBMIT REQUEST TO CREATE CLUB">
     </form>
   </div>
 
