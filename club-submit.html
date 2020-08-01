@@ -57,32 +57,30 @@
 <div class="container-clubs">
     <ol class="breadcrumb">
       <li><a class="active" href="clubs.html">Clubs</a></li>
+      <li><a href="club-submit.html">Submit your Club</a></li>
     </ol>
   </div>
 
 
-<div id="club-category">
-    <h1>
-        What kind of club<br>are you looking for?
-    </h1>
 
-    <a href="club-cars.html"><p>Car</p></a>
-    <a href="club-trucks.html"><p>Truck</p></a>
-    <a href="club-moto.html"><p style="margin-bottom: 25%;">Motorcycle</p></a>
-</div>
+  <div class="contact-form">
+        <form id="contact-form" action="actionpage.php" method="post">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <br>  
+            <input name="message" class="form-control" placeholder="Your Club Name" required>
+            <br>
+                <textarea name="message" class="form-control" placeholder="Tell us a little bit about your club..." row="4" required></textarea>
+                  <br>
+        
+                  <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+  </div>
 
 
-<div class="club-group-submit">
-    <h1>
-        Want to submit your<br>own group?
-    </h1>
 
-    <button>
-        <a href="club-submit.html">
-            <p>Submit a Group</p>
-        </a>
-    </button>
-</div>
+
 
 
 
