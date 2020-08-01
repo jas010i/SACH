@@ -42,15 +42,12 @@ div#header-image > img {
   padding-bottom: 10%;
   position: relative;
   margin-top: 10%;
-  margin-left: 37.5%;
-
+  margin-left: 37%;
   background-color: black;
-}
 }
 
 
 .container-clubs {
-  margin-top: 15%;
   font-size: 3vw;
 }
 
@@ -63,16 +60,112 @@ div#header-image > img {
   }
 
 
-  #club-title > a {
+div#club-category > h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 6vw;
+  color: rgb(117, 117, 117);
+  margin-left: 0;
+  text-align: center;
+}
+
+  div#club-category > a > p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(117, 117, 117);
     font-size: 3vw;
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-left:35%;
+    margin-right: 35%;
+    background-color: rgba(192, 192, 192, 0.356);
+    left: 0;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 4vw;
+    transition: transform 1s;
+    text-decoration: none;
+  }
+
+  div#club-category > a > p:hover {
+    transform: scale(1.2);
   }
   
-    
-  
+/* Below is the CSS for the listing of different clubs in (x) category */
 
+  div.club-listing {
+    width: 95%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  div.club-listing > button {
+    display: inline-block;
+    width: 40%;
+    margin-right: 0;
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+  div.club-listing > button, img {
+    border-radius: 7px 7px 7px 7px;
+    border: 1px solid rgb(117, 117, 117);
+    transition: transform 1s;
+  }
+
+div.club-listing > button > a > img {
+  width: 100%;
+}
+
+  div.club-listing > button > a, p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 5px;
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    transition: transform 1s;
+  }
+
+  div.club-listing > button:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+    
+
+  /* Below is the CSS layout for the actual club pages */
+  
+div.club-main-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.club-main-container > .general-info > h1, h2 {
+  position: relative;
+  font-size: 7vw;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  font-weight: bolder;
+}
+
+div.club-main-container > .general-info > .club-info-aside {
+  width: 35%;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(218, 216, 216);
+  position: relative;
+  padding-left: 1%;
+}
+
+div.club-main-container > .general-info > .club-info-main {
+  width: 60%;
+  float: right;
+  margin-right: 2%;
+  display: block;
+  position: relative;
+  top: -275px;
+}
+
+div.club-main-container > .general-info > .club-info-main > img {
+  width: 50%;
+  position: relative;
+  left: 0%;
+  margin-top: 20%;
+}
 
 
     footer {
