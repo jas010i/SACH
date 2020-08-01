@@ -136,7 +136,7 @@ a {
     .topnav a.icon {
       float: right;
       display: block;
-      color: darkblue;
+      color: rgb(168, 168, 168);
       padding: 3%;
       padding-left: 5%;
       padding-right: 5%;
