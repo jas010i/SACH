@@ -41,7 +41,7 @@ header {
 #infoTap {
   position: relative;
   display: block;
-  color: rgb(168,2,2);
+  color: red;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   left: 19%;
   font-size: 4vw;
@@ -54,8 +54,11 @@ header {
       text-align: center;
       position: relative;
       display: block;
+      background-color: red;
+      color: white;
+      border-radius: 2px 2px 2px 2px;
       left: 15%;
-      width: 75%;
+      width: 80%;
       font-size: 5vw;
       margin-top: 25%;
     }
@@ -64,7 +67,7 @@ header {
     .text7, .text8 {
       color: white;
       font-size: 3vw;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-align: left;
     }
     
@@ -425,6 +428,7 @@ header {
     div >  #hr001 {
       float: left;
       width: 75%;
+      margin-top: 10%;
       border: 1px solid black;
     }
 
@@ -439,10 +443,12 @@ header {
     div >  #allEventsHeader {
       font-family: 'Permanent Marker';
       font-weight: lighter;
-      font-size: 24px;
+      font-size: 5vw;
       position: relative;
       margin-top: 3%;
-      left: 20%;
+      width: 100%;
+      text-align: center;
+      left: 50%;
     }
     
     div >  table {
@@ -453,9 +459,10 @@ header {
       margin-top: 4%;
       margin-left: 0;
       margin-right: 0;
-      width: 80%;
+      width: 100%;
       position: relative;
-      left: 10%;
+      left: 32%;
+      margin-bottom: 30%;
     }
     
     div >  th {
@@ -488,10 +495,14 @@ header {
       font-weight: lighter;
       text-align: center;
       position: relative;
+      background-color: red;
+      color: white;
+      border-radius: 2px 2px 2px 2px;
       display: block;
       margin-top: 25%;
-      left: 12.5%;
-      width: 75%;
+      width: 80%;
+      margin-left: 10%;
+      left: 0;
       font-size: 5vw;
   }
 
@@ -857,17 +868,10 @@ div {
 
 /*---------All Upcoming Events Table--------*/
 
-#allEventsHeader {
-  font-family: 'Permanent Marker';
-  font-weight: lighter;
-  font-size: 18px;
-  position: relative;
-  margin-top: 3%;
-  left: 32%;
-}
+
 
 #hr002 {
-  width: 90%;
+  width: 100%;
   float: left;
   border: 3px solid black;
 }

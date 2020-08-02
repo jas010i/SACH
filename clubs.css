@@ -32,19 +32,13 @@ a {
     font-family: 'Permanent Marker';
   }
   
-div#header-image {
+div#header-image > h1 {
   background-color: black;
-  padding-top: 10%;
+  padding-top: 12%;
+  padding-bottom: 0;
+  font-size: 20vw;
 }
-div#header-image > img {
-  width: 25%;
-  display: block;
-  padding-bottom: 10%;
-  position: relative;
-  margin-top: 10%;
-  margin-left: 37%;
-  background-color: black;
-}
+
 
 
 .container-clubs {

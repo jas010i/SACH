@@ -8,20 +8,17 @@ div#main-header {
   padding-top: 5%;
   position: relative;
   top: 0;
+  font-size: 12vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-top: 0;
   background-color: black;
+  color: rgb(54, 54, 54);
 }
 
-
-div#main-header > img {
-  width: 25%;
+div.quick-news-feed {
+  overflow: visible;
   display: block;
-  position: relative;
-  margin-top: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-left: 37.5%;
-  background-color: black;
+  margin-bottom: 1400px;
 }
 
 div.main-header > p#header-title {
