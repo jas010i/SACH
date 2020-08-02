@@ -11,6 +11,14 @@ body {
         display: none;
       }
 
+      div.main-header-parts > h1 {
+        color: rgb(85, 85, 85);
+        background-color: black;
+        font-size: 18vw;
+        margin-top: 0;
+        padding-top: 10%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
 
 
 .pills {
