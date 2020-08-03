@@ -12,7 +12,8 @@ body {
       }
 
       div.main-header-parts > h1 {
-        color: rgb(85, 85, 85);
+        color: #333;
+
         background-color: black;
         font-size: 18vw;
         margin-top: 0;
