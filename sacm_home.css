@@ -289,11 +289,9 @@ form {
 .form-control {
   width: 100%;
   background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
+  border: 1px solid #333;
   border-radius: 0px;
-  color: rgb(54, 54, 54);
+  color: rgb(224, 0, 0);
   font-size: 3vw;
   margin-bottom: 16px;
 }
