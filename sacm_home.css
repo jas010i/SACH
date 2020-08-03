@@ -308,6 +308,9 @@ input {
 input:focus {
   background-color: rgb(231, 231, 231);
   color: red;
+  transform: scale(1.1);
+  margin-left: 5%;
+  transition: ease .3s;
 }
 
 form .submit {
