@@ -269,7 +269,7 @@ input:focus {
   transition: ease .3s;
 }
 
-form .submit1 {
+form .submit {
   background: rgb(204, 0, 0);
   border-color: rgb(204, 0, 0);
   color: white;
@@ -278,7 +278,7 @@ form .submit1 {
   margin-bottom: 15%;
 }
 
-form .submit1:hover {
+form .submit:hover {
   background-color: rgb(231, 0, 0);
   cursor: pointer;
 }
