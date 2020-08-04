@@ -223,49 +223,6 @@ div.Live {
   margin-left: 5%;
 }
 
- .twitter-timeline {
-   display: block;
-  margin-left: 0;
-  width: 100%;
-}
-
-.quickLink {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  left: 0;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.801), 0 0px 0px 0 rgba(0, 0, 0, 0.767);
-
-}
-
-.quickLink > button#link {
-  background-color: black;
-  border: 2px solid rgb(168, 168, 168);
-  border-radius: 7px 7px 7px 7px;
-  color: white;
-  font-family: 'Permanent Marker';
-  width: 30%;
-  font-size: 3vw;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.801), 0 60px 200px 0 rgba(0, 0, 0, 0.767);
-}
-
-.quickLink > button#link > a {
-  color: white;
-  text-decoration: none;
-  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.788), 0 60px 200px 0 rgba(0, 0, 0, 0.685);
-
-}
-
-.quickLink > button#link:hover {
-  background-color: black;
-  color: white;
-  border: 2px solid black;
-}
 
 .social {
   display: block;
@@ -288,7 +245,6 @@ form {
 
 .form-control {
   width: 100%;
-  background: transparent;
   border-radius: 0px;
   color: rgb(224, 0, 0);
   font-size: 4vw;
@@ -825,7 +781,8 @@ div.welcome p {
 div.quickLink {
   display: block;
   position: relative;
-  margin-top: 0;
+  margin-top: 10%;
+
 }
 
 
@@ -837,31 +794,14 @@ div.quickLink > a > img#ind12 {
   right: 0;
   margin-top: 10%;
   transition: transform 1s;
+  filter: grayscale(1);
 
 }
 div.quickLink > a > img#ind12:hover {
   transform: scale(1.1);
+  z-index: +2;
 }
-#inde12 a {
-  position: absolute;
-  font-family: 'Permanent Marker';
-  font-size: 6vw;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  top: 29%;
-  width: 75%;
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 6vw;
-  color: black;
-  background-color: white;
-  mix-blend-mode: screen;
-  padding-left: 5px;
-  padding-right: 5px;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
+
 div.quickLink > a > img#ind13 {
   display: block;
   position: relative;
@@ -873,26 +813,7 @@ div.quickLink > a > img#ind13 {
 div.quickLink > a > img#ind13:hover {
   transform: scale(1.1);
 }
-#inde13 a {
-  position: absolute;
-  font-family: 'Permanent Marker';
-  font-size: 6vw;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  top: 57%;
-  width: 75%;
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 6vw;
-  color: black;
-  background-color: white;
-  mix-blend-mode: screen;
-  padding-left: 5px;
-  padding-right: 5px;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
+
 div.quickLink > a > img#ind14 {
   display: block;
   position: relative;
@@ -903,26 +824,7 @@ div.quickLink > a > img#ind14 {
 div.quickLink > a > img#ind14:hover {
   transform: scale(1.1);
 }
-#inde14 a{
-  position: absolute;
-  font-family: 'Permanent Marker';
-  font-size: 6vw;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  top: 85%;
-  width: 75%;
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 6vw;
-  color: black;
-  background-color: rgba(255, 255, 255);
-  mix-blend-mode: screen;
-  padding-left: 5px;
-  padding-right: 5px;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
+
 
 
 
@@ -969,6 +871,7 @@ div.quickLink > a > img#ind14:hover {
 
 div.quick-news-feed {
   overflow: scroll;
+  margin-top: 10%;
   height: 300px;
   border-top: 6px solid rgb(146, 146, 146);
   border-bottom: 6px solid rgb(146, 146, 146);
@@ -989,6 +892,7 @@ div#news-button-caption {
 
 div#news-button-caption > a {
  color: black;
+ margin-top: 10%;
  text-decoration: none;
 }
 
@@ -1144,7 +1048,7 @@ footer > p {
     border: 0;
     font-family: 'Permanent Marker';
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 3vw;
     text-align: center;
     text-decoration: none;
     transition: .5s ease;
