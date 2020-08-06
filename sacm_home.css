@@ -320,118 +320,7 @@ form .submit:hover {
     box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
 
   }
-  div.container {
-    display: block;
-    width: 100%;
-    position: relative;
-    left: 0;
-    
-  }
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
   
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    max-width: 980px auto;
-    padding: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: 0.6s ease;
-  }
-  
-  .next {
-    border-radius: 3px 0 0 3px;
-    right: 0;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    padding-bottom: 1px;
-    background-color: black;
-    color: white;
-    max-width: 980px auto;
-    font-family: 'Permanent Marker';
-    text-align: center;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-    bottom: 0;
-    font-family: 'Permanent Marker';
-    display: none;
-    position: -webkit-sticky;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /*transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-  .fade {
-    -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-  }
   div.galleryRight {
     display: block;
     position: relative;
@@ -659,125 +548,7 @@ div.welcome p {
   color: white;
   text-shadow: rgb(0, 0, 0) 1px 0 10px;}
 
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    display: block;
-    position: relative;
-    left: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 5%;
-    margin-top: 0;
-    width: 100%;
-    padding-bottom: 0;
-    background-color: black;
-
-
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    padding: 15px;
-    color: rgb(218, 0, 0);
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 0 60px 60px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    background-color: rgb(0, 0, 0);
-    transition: 0.6s ease;
-    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.466), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
-
-  }
-  
-  .next {
-    border-radius: 60px 0 0 60px;
-    right: 0;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    padding-bottom: 1px;
-    background-color: black;
-    color: white;
-    max-width: 980px auto;
-    font-family: 'Permanent Marker';
-    text-align: center;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-    bottom: 0;
-    font-family: 'Permanent Marker';
-    display: none;
-    position: -webkit-sticky;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /*transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-  .fade {
-    -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-  }
-
+ 
 div.quickLink {
   display: block;
   position: relative;
@@ -787,14 +558,27 @@ div.quickLink {
 
 
   /*side bar information*/
+  div.quickLink > a > img#ind11 {
+    display: block;
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin-top: 10%;
+    transition: transform 1s;
+  
+  }
+  div.quickLink > a > img#ind11:hover {
+    transform: scale(1.1);
+    z-index: +2;
+  }
+
 div.quickLink > a > img#ind12 {
   display: block;
   position: relative;
   width: 100%;
   right: 0;
-  margin-top: 10%;
+  margin-top: 0;
   transition: transform 1s;
-  filter: grayscale(1);
 
 }
 div.quickLink > a > img#ind12:hover {
@@ -824,7 +608,6 @@ div.quickLink > a > img#ind14 {
 div.quickLink > a > img#ind14:hover {
   transform: scale(1.1);
 }
-
 
 
 
