@@ -577,7 +577,7 @@ div.quickLink > a > img#ind12 {
   position: relative;
   width: 100%;
   right: 0;
-  margin-top: 0;
+  margin-top: 10%;
   transition: transform 1s;
 
 }
