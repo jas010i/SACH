@@ -1,26 +1,18 @@
-h1 {
-    text-align: center;
-    color: white;
-    background-color: black;
-    font-family: 'Permanent Marker';
-    font-weight: lighter;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 25%;
-    font-size: 20px;
+
+
+
+
+.bg-img > img{
+  margin-top: 25%;
+  z-index: -2;
+  width: 100%;
 }
 
-h3 {
-    text-align: center;
-    color: white;
-    background-color: black;
-    font-family: 'Permanent Marker';
-    font-weight: lighter;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: 16px;
-    margin-bottom: 200px;
+.photo-submit-form {
+  margin-top: 0;
 }
+
+
 footer {
     margin-top: 200px;
     max-width: 100%;
