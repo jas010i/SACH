@@ -27,8 +27,8 @@ body {
   display: block;
   position: relative;
   background-color: rgba(221, 221, 221, 0.87);
-  left: -500px;
-  top: -500px;
+  left: -97%;
+  top: -400px;
   transition: .7s ease-in-out;
   border-right: 4px solid rgb(114, 114, 114);
   border-top: 4px solid rgb(114, 114, 114);

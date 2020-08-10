@@ -1,9 +1,10 @@
+@media screen and (max-width: 700px) {
+
+
 html {
   background-size: auto;
   margin: 0px;
   margin-bottom: 0;
-  min-width: 320px;
-  max-width: 980px auto;
   margin-right: auto;
   margin-left: auto;
   scroll-behavior: smooth;
@@ -23,49 +24,13 @@ body {
 header {
   background-size: auto;
   margin: 0px;
-  max-width: 980px auto;
   box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.384), 0 8px 10px 0 rgba(0, 0, 0, 0.342);
 }
 
-.fixed-bg {
-  background-image: url(cityskyline.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-h3.anchor01 {
-  position: relative;
-  left: 25%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  width: 50%;
-  padding-bottom: 0;
-  background-color: black;
-  color: white;
-  font-family: 'Permanent Marker';
-  text-align: center;
-  font-weight: lighter;
-  max-width: 980px auto;
-  animation: mymove .9s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  font-size: 16px;
-}
 
 
 
-@keyframes mymove {
-  from {top: 0px;}
-  to {top: 25px;}
-}
 
-a {
-  font-family: 'Permanent Marker';
-}
 
 /* Navigation Bar*/
 
@@ -129,7 +94,6 @@ a {
     display: none;
   }
 
-  @media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {
       display: none; 
       transition: .7s ease-in-out;}
@@ -146,15 +110,7 @@ a {
       padding: 3%;
       transition: .7s ease;
     }
-    .fixed-bg {
-      display: none;
-    }
-    h3.anchor01 {
-      display: none;
-    }
-    #section07 {
-      display: none;
-    }
+
     .topnav > img#skyline {
       display: block;
       position: absolute;
@@ -407,7 +363,7 @@ form .submit:hover {
       float: none;
       display: block;
       font-family: 'Permanent Marker';
-      text-rendering: optimizeLegibility;
+      text-rendering: optimizeSpeed;
       text-align: right;
       height: 45px;
       padding-right: 15%;
