@@ -21,48 +21,6 @@ body {
       }
 
 
-/* side navigation for cross-site */
-
-.side-nav-part {
-  display: block;
-  position: relative;
-  background-color: rgba(221, 221, 221, 0.87);
-  left: -97%;
-  top: -400px;
-  transition: .7s ease-in-out;
-  border-right: 4px solid rgb(114, 114, 114);
-  border-top: 4px solid rgb(114, 114, 114);
-  border-bottom: 4px solid rgb(114, 114, 114);
-}
-
-.side-nav-part:hover {
-  left: 0px;
-}
-
-.side-nav-part > a {
-  padding-left: 3%;
-  padding-right: 60%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-  display: inline-block;
-  text-decoration: none;
-  color: #555;
-  transition: transform ease-in-out .6s;
-  font-size: 5vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.side-nav-part > a:hover {
-  color: white;
-  background-color: red;
-  transform: scale(1.1);
-  margin-left: 3%;
-}
-
-
-
-
-
 .pills {
     top: 5%;
     background-color: white;
@@ -165,6 +123,55 @@ div.local-parts > a:hover {
     margin-right: auto;
   }
   
+
+/* Template for the parts page that shows 
+the results for the specific categories*/
+
+div.parts-main-header > h1 {
+  padding-top: 5%;
+  position: relative;
+  top: 0;
+  font-size: 15vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 5%;
+  background-color: black;
+  color: rgb(24, 24, 24);
+}
+
+
+
+div.parts-container {
+  margin-bottom: 20%;
+  margin-top: 10%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(107, 107, 107);
+}
+
+p#parts-caption {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.5vw;
+  padding-left: 1%;
+  background-color: rgb(230, 230, 230);
+  color: rgb(88, 88, 88);
+}
+
+#more {
+  display: none;
+}
+
+#myBtn3 {
+  background-color: rgb(230, 230, 230);
+  color: rgb(141, 141, 141);
+  border: none;
+}
+
+#myBtn3:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+
 
 
 
