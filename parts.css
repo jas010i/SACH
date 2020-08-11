@@ -129,6 +129,7 @@ the results for the specific categories*/
 
 div.parts-main-header > h1 {
   padding-top: 5%;
+  padding-bottom: 5%;
   position: relative;
   top: 0;
   font-size: 15vw;
@@ -136,6 +137,7 @@ div.parts-main-header > h1 {
   margin-top: 5%;
   background-color: black;
   color: rgb(24, 24, 24);
+  z-index: 0;
 }
 
 
@@ -170,6 +172,39 @@ p#parts-caption {
 #myBtn3:hover {
   background-color: rgb(224, 224, 224);
 }
+
+
+.hover-nav-parts > p {
+  bottom: 70%;
+  z-index: 0;
+  margin-bottom: 0;
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  display: block;
+  left: 10%;
+  background-color: rgb(230, 230, 230);
+  transition: .6s ease-in-out;
+}
+
+
+.hover-nav-parts > p:hover{
+  bottom: -30%;
+  width: 80%;
+  height: 100%;
+  left: 10%;
+}
+
+
+.hover-nav-parts > p > a {
+  display: inline-block;
+  font-size: 4vw;
+  text-align: center;
+  width: 100%;
+  color: #333;
+  padding-bottom: 0;
+}
+
 
 
 

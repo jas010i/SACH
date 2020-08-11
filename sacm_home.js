@@ -38,6 +38,17 @@ function myFunction() {
   }
 }
 
+
+function myFunction4() {
+  var x = document.getElementById("myHovernav");
+  if (x.className === "hovernav") {
+    x.className += " responsive";
+  } else {
+    x.className = "hovernav";
+  }
+}
+
+
 function openPage(pageName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
