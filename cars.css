@@ -12,31 +12,30 @@
 
 
     .container2 {
-      margin-top: 25%;
-      margin-bottom: 30%;
+      margin-top: 10%;
+      margin-bottom: 10%;
       overflow: hidden;
     }
 
 
     .filterDiv {
       float: left;
-      background-color: rgb(218, 0, 0) ;
-      color: white;
-      width: 22%;
-      height: 75px;
-      text-align: center;
-      border-radius: 360px;
-      margin: 1.5%;
+      background-color: rgb(255, 255, 255) ;
+      color: rgb(85, 85, 85);
+      width: 25%;
+      height: 50px;
+      padding-left: 3%;
+      line-height: 50px;
+      text-align: left;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: lighter;
-      line-height: 75px;
       font-size: 3vw;
       transition: .5s ease;
       display: none; /* Hidden by default */
     }
 
     .filterDiv:hover {
-      background-color: darkgrey;
+      background-color: rgb(230, 230, 230);
       color: black;
       transform: scale(1.1);
     }
@@ -50,19 +49,20 @@
     .btn {
       border: none;
       outline: none;
-      padding: 2%;
-      background-color: rgb(230, 230, 230);
-      color: rgb(116, 116, 116);
+      font-size: 3vw;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 3%;
+      background-color: rgb(255, 255, 255);
+      color: rgb(85, 85, 85);
       cursor: pointer;
-      width: 18%;
-      margin-left: 1%;
-      margin-right: auto;
-      transition: .3s ease;
+      text-align: left;
+      width: 20%;
+      transition: .6s ease;
     }
     
     /* Add a light grey background on mouse-over */
     .btn:hover {
-      background-color: rgb(187, 187, 187);
+      background-color: rgb(233, 233, 233);
     }
     
     /* Add a dark background to the active button */

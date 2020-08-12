@@ -161,6 +161,7 @@ a {
       padding-top: 3%;
       padding-bottom: 3%;
       transition: .7s ease;
+      color: rgba(0, 0, 0, 0);
     }
     .hovernav > p {
       display: none;
