@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+      #break {
+        display: none;
+      }
+
+      div.main-header-parts > h1 {
+        color: #333;
+        background-color: black;
+        font-size: 18vw;
+        margin-top: 0;
+        padding-top: 10%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+
+.pills {
+    top: 5%;
+    background-color: white;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pills > h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.pills > a > img#par12 {
+    width: 20%;
+    height:40px;
+    display: block;
+    position: relative;
+    top: 0;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9px 9px 9px 9px;
+    transition: transform .5s;
+}
+
+.pills > a > img#par12:hover {
+    transform: scale(1.1)
+}
+
+.local-parts {
+    height: 350px;
+    overflow: scroll;
+    border: 6px solid black;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+    border-radius: 5px 5px 5px 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+.local-parts > #loc-sell {
+    display: block;
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------Local Seller Tile Categories---*/
+
+div.local-parts > a {
+    display:block;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 1%;
+    letter-spacing: 1.5px;
+    padding: 2%;
+    background-color: darkred;
+    color: white;
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+    font-weight: 100;
+    transition: transform .5s;
+    border: 2px solid black;
+}
+
+div.local-parts > a:hover {
+    background-color: rgb(122, 122, 122);
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.social {
+    display: block;
+    position: relative;
+    width: 50%;
+    left: 12.5%;
+    bottom: 25px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: auto;
+  }
+  
+
+/* Template for the parts page that shows 
+the results for the specific categories*/
+
+div.parts-main-header > h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  top: 0;
+  font-size: 15vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 5%;
+  background-color: black;
+  color: rgb(24, 24, 24);
+  z-index: 0;
+}
+
+
+
+div.parts-container {
+  margin-bottom: 20%;
+  margin-top: 10%;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(107, 107, 107);
+}
+
+p#parts-caption {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3.5vw;
+  padding-left: 1%;
+  background-color: rgb(230, 230, 230);
+  color: rgb(88, 88, 88);
+}
+
+#more {
+  display: none;
+}
+
+#myBtn3 {
+  background-color: rgb(230, 230, 230);
+  color: rgb(141, 141, 141);
+  border: none;
+}
+
+#myBtn3:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+
+
+
+
+
+
+
+
+      footer {
+        margin-bottom: 0px;
+        max-width: 100%;
+        background-color: black;
+        
+        
+      }
+      
+      footer > img {
+        display: block;
+        padding-top: 5%;
+        width: 15%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+      }
+      
+      footer > p {
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+        background-color: black;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-bottom: 0;
+        padding-top: 3%;
+        padding-bottom: 2%;
+        font-size: 16px;
+      }
+}
