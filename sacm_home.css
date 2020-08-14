@@ -144,7 +144,7 @@ a {
     }
     .hovernav a.active {
       padding: 3%;
-      transition: .7s ease;
+      transition: .7s ease-in-out;
     }
 
 
@@ -160,7 +160,7 @@ a {
     .hovernav a {
       padding-top: 3%;
       padding-bottom: 3%;
-      transition: .7s ease;
+      transition: .7s ease-in-out;
       color: rgba(0, 0, 0, 0);
     }
     .hovernav > p {
@@ -371,12 +371,12 @@ form .submit:hover {
     .hovernav.responsive {
       position: fixed;
       width: 100%;
-      z-index: +3;
+      z-index: +9999;
       left: 0;
       height: 100%;
       margin-bottom: 0;
       background-color: black;
-      top: 6%;
+      top: 0;
       transition: .7s ease;
       box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
     }
@@ -408,7 +408,7 @@ form .submit:hover {
       font-family: 'Permanent Marker';
       text-rendering: optimizeSpeed;
       text-align: right;
-      color: white;
+      color: rgb(255, 255, 255);
       height: 45px;
       text-decoration: none;
       padding-right: 15%;

@@ -50,13 +50,13 @@ div.main-header-local > h1 {
 /* Style tab links */
 .tablink {
   background-color: white;
-  color: black;
+  color: #333;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 3%;
-  font-size: 3vw;
+  font-size: 4vw;
   margin: 0;
   width: 33.3333%;
   font-family: 'Permanent Marker';
