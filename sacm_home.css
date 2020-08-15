@@ -240,34 +240,35 @@ div.Live {
   color: rgb(224, 0, 0);
   font-size: 4vw;
   padding: 3%;
-  margin-top: 10%;
-  margin-bottom: 30px;
+  /* margin-top: 10%; */
+  /* margin-bottom: 30px; */
 }
 
-.contact-form > img {
+div.contact-form {
+  background-color: rgb(0, 0, 0);
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+div.contact-form > img {
   width: 100%;
-  position: absolute;
-  z-index:-2;
-  filter: brightness(35%);
 }
 
 input {
   color: red;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.644);
+  background-color: rgba(255, 255, 255, 0);
   border: none;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(70, 70, 70);
   font-size: 3vw;
   margin-top: 10%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .form-control {
-  background-color: rgba(0, 0, 0, 0.644);
+  background-color: rgba(0, 0, 0, 0);
 }
-
-input:focus {
-  background-color: rgba(0, 0, 0, 0.644);
   color: red;
   transform: scale(1.1);
   margin-left: 5%;
@@ -280,7 +281,7 @@ form .submit {
   color: white;
   border: 1px solid rgb(204, 0, 0);
   font-size: 3vw;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 
 form .submit:hover {
