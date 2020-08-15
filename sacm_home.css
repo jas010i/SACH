@@ -246,9 +246,8 @@ div.Live {
 
 div.contact-form {
   background-color: rgb(0, 0, 0);
-  width: 80%;
+  width: 100%;
   position: relative;
-  left: 10%;
 }
 
 div.contact-form > img {
@@ -313,7 +312,6 @@ form .submit:hover {
 
 .social > button#socialMed > a:hover {
   color: black;
-  background-color: rgb(231, 231, 231);
 }
 
   h1 > p#galleryTitle {
