@@ -541,7 +541,7 @@ div {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: darkred;
+  background-color: rgb(238, 0, 0);
   overflow: hidden;
   width: 100%;
   height:0;
