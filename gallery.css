@@ -101,7 +101,7 @@ div > .container17 {
 div >  img#engine17 {
   display: block;
   background-color: black;
-  width: 30%;
+  width: 25%;
   margin-right: 5%;
   margin-left: 5%;
   height: 100%;
@@ -131,8 +131,8 @@ div > .container17:hover {
 
 div > .container17:hover .overlay17 {
   z-index: +3;
-  width: 95%;
-  left:2.5%;
+  width: 100%;
+  left:0;
   top: -50%;
   height: auto;
   border-radius: 7px 7px 7px 7px;
