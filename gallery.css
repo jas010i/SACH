@@ -125,11 +125,7 @@ div > .overlay17 {
   transition: 1s ease-in-out;
 }
 
-div > .container17:hover {
-  margin-bottom: 25%;
-  image-rendering: optimizeSpeed;
-  margin-top: 25%;
-}
+
 
 div > .container17:hover .overlay17 {
   z-index: +3;
