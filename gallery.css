@@ -103,8 +103,7 @@ div >  img#engine17 {
   display: block;
   background-color: black;
   width: 25%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 10%;
   height: 100%;
   float: left;
 }
@@ -138,6 +137,7 @@ div > .container17:hover .overlay17 {
   image-rendering: optimizeSpeed;
   left:0;
   top: -50%;
+  background-color: white;
   height: auto;
   border-radius: 7px 7px 7px 7px;
   border: 2px solid black;
