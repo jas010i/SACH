@@ -1,49 +1,10 @@
-html {
-    background-size: auto;
-    margin: 0px;
-    margin-bottom: 0;
-    min-width: 320px;
-    max-width: 980px auto;
-    margin-right: auto;
-    margin-left: auto;
-    scroll-behavior: smooth;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-size: auto;
-    margin: 0px;
-    margin-bottom: 0px;
-    background-color: white
-  }
-  
-  header {
-    background-size: auto;
-    margin: 0px;
-    max-width: 980px auto;
-  }
-  a {
-    font-family: 'Permanent Marker';
-  }
-  
-    @media screen and (max-width: 600px) {
-      .main001 {
-        font-size: 22px;
-        font-weight: lighter;
-        font-family: 'Permanent Marker';
-        padding-left: 10%;
-        margin-right: 10%;
-     }
-    }
+
       @media screen and (max-width: 600px) {
       .main001 {
         margin-top: 25%;
           font-size: 4vw;
           font-weight: lighter;
-          font-family: 'Permanent Marker'
+          font-family: 'Permanent Marker';
           padding-left: 10%;
           margin-right: 10%;
       }
@@ -54,7 +15,7 @@ html {
         font-family: 'Permanent Marker';
         padding-left: 10%;
         margin-right: 10%;
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
 
       p {

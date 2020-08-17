@@ -1,40 +1,8 @@
-html {
-    background-size: auto;
-    margin: 0px;
-    margin-bottom: 0;
-    min-width: 320px;
-    max-width: 980px auto;
-    margin-right: auto;
-    margin-left: auto;
-    scroll-behavior: smooth;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-size: auto;
-    margin: 0px;
-    margin-bottom: 0px;
-    background-color: white
-  }
-  
-  header {
-    background-size: auto;
-    margin: 0px;
-    max-width: 980px auto;
-  }
 
-
-
-a {
-    font-family: 'Permanent Marker';
-  }
   
 div#header-image > h1 {
   background-color: black;
-  padding-top: 12%;
+  padding-top: 10%;
   padding-bottom: 0;
   font-size: 20vw;
 }

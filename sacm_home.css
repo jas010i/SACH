@@ -19,8 +19,13 @@ body {
 }
 
 header {
+  position: fixed;
+  z-index: +9999;
+  margin-top: 0;
+  top: 0;
   background-size: auto;
   margin: 0px;
+  background-color: rgba(0, 0, 0, 0.295);
   box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.384), 0 8px 10px 0 rgba(0, 0, 0, 0.342);
 }
 
@@ -28,108 +33,62 @@ a {
   font-family: 'Permanent Marker';
 }
 
+@media screen and (max-width: 700px) {
 
-
-
-/* Navigation Bar*/
-
-.topnav > img#skyline {
-  width: 10%;
-  height: auto;
-  float: right;
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: +9999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
 }
 
-.topnav > p {
-  color: white;
-  float: right;
-  font-family: 'Permanent Marker';
-  font-size: 14px;
-  padding: 0;
-  padding-right: 1%;
+.overlay-content {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: +9999;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.topnav {
-    background-color: rgb(20, 20, 20);
-    overflow: visible;
-    display: block;
-    position: fixed;
-    width: 100%;
-    z-index: +9999;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    transition: .5s ease;
-    box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342);
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 6vw;
+  color:#999;
+  display: block;
+  transition: 0.3s;
+}
 
-  }
-  
-  .topnav a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 1%;
-    text-decoration: none;
-    font-size: 14px;
-    transition: .5s ease;
-  }
-  
-  .topnav a:hover {
-    background-color: #949494ad;
-    color: white;
-  }
-  
-  .topnav a.active {
-    background-color: rgba(206, 0, 0, 0.863);
-    color: white;
-    padding-right: 3%;
-    transition: .5s ease;
-  }
+overlay a.active {
+color: red;
+}
 
-  .topnav a.active:hover {
-    background-color: darkred;
+.overlay a:hover, .overlay a:focus {
+  color: #720202;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  z-index: +99999;
+  right: 45px;
+  font-size: 60px;
+}
+
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 4vw}
+  .overlay .closebtn {
+  font-size: 40px;
+  right: 35px;
   }
-
-  .topnav .icon {
-    display: none;
-  }
-
-  @media screen and (max-width: 2160px) {
-    .topnav a:not(:first-child) {
-      display: none; 
-      transition: .7s ease-in-out;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-      color: rgb(168, 168, 168);
-      padding: 3%;
-      padding-left: 5%;
-      padding-right: 5%;
-      transition: .7s ease;
-    }
-    .topnav a.active {
-      padding: 3%;
-      transition: .7s ease;
-    }
-
-
-    .topnav > img#skyline {
-      display: block;
-      position: absolute;
-      margin-left: 38%;
-      padding-top: 0;
-      padding-bottom: 5%;
-      width: 25%;
-      transition: .7s ease;
-  }
-    .topnav a {
-      padding-top: 3%;
-      padding-bottom: 3%;
-      transition: .7s ease;
-    }
-    .topnav > p {
-      display: none;
-    }
-
+}
     .hovernav a:not(:first-child) {
       display: none; 
       transition: .7s ease-in-out;}
@@ -166,49 +125,6 @@ a {
     .hovernav > p {
       display: none;
     }
-    #borTopNav {
-      border-bottom: 1px solid #ccc;
-      transition: .7s ease;
-    }
-  
-.mobileNav {
-display: block;
-padding-left: 0;
-  background-color: rgba(65, 65, 65, 0.788);
-  transition: .7s ease;
-}
-#mNhr {
-  display: none;
-}
-    #break {
-      display: none;
-    }
-    .alert {
-      display: block;
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0px;
-      color: black;
-      background-color: rgb(218, 214, 0);
-      padding: 15px;
-      font-size: 3vw;
-      z-index: +3;
-    }
-    
-    .closebtn {
-      margin-left: 15px;
-      color: white;
-      font-weight: bold;
-      float: right;
-      font-size: 22px;
-      line-height: 20px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    
-    .closebtn:hover {
-      color: black;
-    }
 
 div.Live {
   display: block;
@@ -240,6 +156,7 @@ div.Live {
   color: rgb(224, 0, 0);
   font-size: 4vw;
   padding: 3%;
+  margin-bottom: 0;
   /* margin-top: 10%; */
   /* margin-bottom: 30px; */
 }
@@ -248,8 +165,6 @@ div.contact-form {
   background-color: rgb(0, 0, 0);
   width: 100%;
   position: relative;
-  border-bottom: 4px solid white;
-  padding-bottom: 10%;
 }
 
 div.contact-form > img {
@@ -356,30 +271,13 @@ div.galleryLeft > img {
       border: 0;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: lighter;
-      font-size: vw;
+      font-size: 4vw;
   }
-}
 
 
-  @media screen and (max-width: 2160px) {
 
-    .topnav.responsive {
-      position: fixed;
-      width: 100%;
-      height: 125%;
-      z-index: +99990;
-      right: 0;
-      margin-bottom: 0;
-      top: 0;
-      transition: .7s ease;
-      box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
-    }
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: -12%;
-      top: 0;
-      transition: .7s ease;
-    }
+  @media screen and (max-width: 700px) {
+
 
 
 
@@ -434,34 +332,6 @@ div.galleryLeft > img {
     }
   }
 
-    .topnav.responsive img#skyline {
-      width: 50%;
-      position: absolute;
-      display: block;
-      margin-left: 25%;
-      /* right: -50%; */
-      /* margin-right: 25%; */
-      /* padding: 5%; */
-      /* padding-left: 25%; */
-      /* padding-right: 25%; */
-      background-color: rgb(20, 20, 20);
-      transition: .7s ease;
-    }
-
-
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      font-family: 'Permanent Marker';
-      text-rendering: optimizeSpeed;
-      text-align: right;
-      height: 45px;
-      padding-right: 15%;
-      transition: .7s ease;
-      letter-spacing: 2px;
-      font-weight: lighter;
-      font-size: 4vw;
-    }
   
 
 
@@ -487,57 +357,6 @@ h1 > p#galleryTitle {
   
   }
 
-div.welcome {
-  display: none;
-  position: relative;
-  top: 0;
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: rgb(48, 48, 48);
-  box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
-
-}
-
-div.partners {
-  background-image: url(gallery/partner-bg.gif);
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  padding-bottom: 5%;
-}
-
-div.partners > #par-vinylty > a > img{
-  width: 20%;
-  border-radius: 6px 6px 6px 6px;
-  left: 40%;
-  position: relative;
-  position: relative;
-  filter: invert(1);
-  mix-blend-mode: screen;
-  margin-top: 0;
-  transition: ease 1s;
-}
-
-div.partners > #par-vinylty > a > img:hover {
-  transform: scale(1.1);
-}
-
-div.welcome h2 {
-  text-align: center;
-  font-size: 5vw;
-  font-family: 'Permanent Marker';
-  font-weight: lighter;
-  letter-spacing: 3px;
-  color: white;
-  text-shadow: rgb(0, 0, 0) 1px 0 10px;}
-
-div.welcome p {
-  text-align: center;
-  font-size: 2.5vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: white;
-  text-shadow: rgb(0, 0, 0) 1px 0 10px;}
 
  
 div.quickLink {
@@ -555,7 +374,6 @@ div.quickLink {
     overflow: hidden;
     right: 0;
     transition: transform 1s;
-  
   }
   div.quickLink > a > img#ind11:hover {
     transform: scale(1.1);
@@ -635,7 +453,7 @@ footer {
   max-width: 100%;
   padding-top: 10%;
   top: 0;
-  background-color: black; 
+  background-color: black;
 }
 
 footer > div#footer-info-left > a{
