@@ -328,13 +328,7 @@ form .submit:hover {
 
   }
   
-  div.galleryRight {
-    display: block;
-    position: relative;
-    left: 5%;
-    margin-bottom: 5%;
-    width: 90%;
-  }
+
   div.galleryLeft {
     display: block;
     position: relative;
@@ -612,34 +606,12 @@ div.quickLink > a > img#ind14:hover {
   .galleryRight {
     display: block;
     position: relative;
-    left: 10%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    width: 80%;
-    padding-bottom: 0;
-    max-width: 980px auto;
+    width: 100%;
+
   }
 
- .galleryRight > header {
-   position: relative;
-   display: block;
-   padding-right: 10px;
-   margin-bottom: 10%;
-   margin-bottom: 10%;
-   padding-left: 10px;
-   padding-top: 4px;
-   padding-bottom: 4px;
-   right: 0;
-   top: 10px;
-   font-family: 'Permanent Marker';
-   text-align: center;
-   font-size: 5vw;
-   color: black;
-   box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342)
-
- }
 
  .galleryRight > p {
    position: relative;
@@ -648,46 +620,15 @@ div.quickLink > a > img#ind14:hover {
     text-align: justify;
     font-size: 4vw;
     line-height: 30px;
-}
-
-div.quick-news-feed {
-  overflow: scroll;
-
-  height: 300px;
-
-  width: 100%;
-}
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 15%;
+ }
 
 ::-webkit-scrollbar{
   display: none;
 }
 
-div#news-button-caption {
-  width: 100%;
-  position: relative;
-  background-color: rgb(235, 235, 235);
-  border-top: 1px solid rgb(192, 192, 192);
-  border-bottom: 1px solid rgb(192, 192, 192);
-}
-
-div#news-button-caption > a {
- color: black;
- margin-top: 10%;
- text-decoration: none;
-}
-
-div#news-button-caption > a > p {
-  color: rgb(104, 104, 104);
-  margin-left: 2%;
-  margin-right: 5%;
-}
-
-#break {
-  color: black;
-  width: 99%;
-  height: 15px;
-  background-color: black;
-}
 
 footer {
   margin-bottom: 0px;
@@ -788,6 +729,7 @@ footer > p {
   display: block;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: 25%;
   font-size: 4vw;
   font-weight: lighter;
   color: white;
@@ -798,20 +740,7 @@ footer > p {
   transition: ease .6s;
 }
 
-#photoSubmissionHeader {
-  display: block;
-  text-align: center;
-  font-family: 'Permanent Marker';
-  font-weight: lighter;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.616);
-  padding-left: 4px;
-  margin-top:  0;
-  margin-bottom: 10%;
-  padding-right: 4px;
-  font-size: 5vw;
-  box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.384), 0 8px 20px 0 rgba(0, 0, 0, 0.342);
-}
+
 
 
 #button {
