@@ -25,7 +25,7 @@ header {
   top: 0;
   background-size: auto;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.295);
+  background-color: rgba(0, 0, 0, 0.301);
   box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.384), 0 8px 10px 0 rgba(0, 0, 0, 0.342);
 }
 
@@ -83,9 +83,9 @@ color: red;
 }
 
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 4vw}
+  .overlay a {font-size: 8vw}
   .overlay .closebtn {
-  font-size: 40px;
+  font-size: 15vw;
   right: 35px;
   }
 }
