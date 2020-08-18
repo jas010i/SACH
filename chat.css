@@ -1,0 +1,30 @@
+.main-hub-wall {
+    margin-bottom: 25%;
+}
+
+
+.post-hub-wall {
+    border-bottom: 4px solid rgb(190,190,190);
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    font-size: 5vw;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+input#submit-post {
+    border: none;
+    font-family: 'Permanent Marker';
+    color: rgb(88, 88, 88);
+    padding-right: 2%;
+    margin-bottom: 1%;
+    border-right: 1px solid rgb(200, 200, 200);
+}
+
+input#submit-post:hover {
+    color: red;
+}

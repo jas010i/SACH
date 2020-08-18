@@ -25,7 +25,7 @@ header {
   top: 0;
   background-size: auto;
   margin: 0px;
-  background-color: rgba(0, 0, 0, 0.377);
+  background-color: rgb(0, 0, 0);
   box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.384), 0 8px 10px 0 rgba(0, 0, 0, 0.342);
 }
 
@@ -42,8 +42,7 @@ a {
   z-index: +9999;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0, 0, 0, 0.795);
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -60,8 +59,8 @@ a {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 6vw;
-  color:#999;
+  font-size: 5vw;
+  color:rgb(255, 255, 255);
   display: block;
   transition: 0.3s;
 }
@@ -83,9 +82,10 @@ color: rgb(68, 68, 68);
 }
 
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 7vw}
+  .overlay a {font-size: 6vw}
   .overlay .closebtn {
   font-size: 15vw;
+  color: red;
   right: 35px;
   }
 }

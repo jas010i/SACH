@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>San Antonio Car Hub</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="SACH_LOGO - Copy.png">
+    <link href="sacm_home.css" type="text/css" rel="stylesheet">
+    <link href="gallery.css" type="text/css" rel="stylesheet">
+    <link href="chat.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+   
+    <script src="sacm_home.js"></script>
+
+    
+</head>
+<body>
+  <header>
+
+        
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a class="active" href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="events.html">Events</a>
+          <a href="clubs.html">Clubs</a>
+          <a id="borTopNav1" href="about.html">About</a>
+            <a href="news.html">News</a>
+            <a href="chat.html">Chat Hub</a>
+            <a href="local.html">Local Shops</a>
+              <a href="cars.html">Cars for Sale</a>
+              <a href="parts.html">Parts for Sale</a>
+              <img style="width: 50%;"src="new-sach-logo-topper.png">
+
+    </div>
+    </div>
+    <span style="width: 100%; margin-left: 2%;color: rgb(255, 0, 0); background-color: rgba(255, 255, 255, 0); font-size: 8vw;cursor:pointer" onclick="openNav()">&#9776;
+    <img style="margin-left: 26%;width: 25%;" src="new-sach-logo-topper.png"></span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+
+  </header>
+        <h1 style="margin-bottom: 10%;" id="galleryHeader">
+            Hub
+        </h1>
+
+
+<div class="main-hub-wall">
+    <div class="post-hub-wall">
+        <form>
+            <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(41, 41, 41); font-size: 5vw;"><img style="width: 10%; margin-left: 2%; margin-right: 2%; border-radius: 360px;" src="my_avatar.jpg">Jason Solis <em style="color: rgb(201, 201, 201);">(Owner)</em></span>
+            <textarea id="targetTextArea" rows="5" cols="50" placeholder="This is an example post." disabled maxlength="100" required></textarea><br>
+
+        </form>
+    </div>
+    <div class="post-hub-wall">
+        <form>
+            <textarea rows="5" cols="50" placeholder="Post something..."maxlength="100" required></textarea><br>
+            <input id="submit-post" onclick="printonpage()" type="submit" value="POST">
+            <div id="output"></div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="social">
+            <p style="color: rgb(201, 5, 5);font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 4vw;text-align: left;position: relative;display:block; right: 12%;">CONNECT WITH US</p>
+            <button id="socialMed"><a href="https://www.instagram.com/sacarhub/?hl=en">INSTAGRAM</a></button><br>
+            <button id="socialMed"><a href="https://twitter.com/sacarhub">TWITTER</a></button><br>
+            <button id="socialMed"><a href="https://facebook.com/sacarhubtx">FACEBOOK</a></button><br>
+          </div>
+        
+        
+        
+        
+        
+        <footer>
+        
+            <div id="footer-info-left" style="width: 50%;float: right;position: relative;right: 25%;">
+              <a href="contact.html">Contact Us</a>
+              <a href="about.html">About Us</a>
+              <a href="donate.html">Support Us</a>
+            </div>
+        
+        
+            <div id="footer-info-right" style=" width:  50%; top: 0;position: relative;
+         left: 25%;">
+              <a href="clubs.html">Join a Club</a>
+              <a href="careers.html">Join the Team</a>
+              <a href="partners.html">Become a Partner</a>
+              <hr style="width: 150%; margin-left: -25%; margin-top: 75%;">
+            </div>
+        
+        
+        
+          <img src="SACH_LOGO.png" alt="SACH_LOGO">
+          <p>
+            Est. 2020<br>
+            SACH Copyright. All Rights Reserved.
+          </p>
+        </footer>
+          
+          </body>
+          
+          </html>   
