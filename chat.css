@@ -3,6 +3,14 @@
 }
 
 
+.post-hub-wall-example {
+    border-bottom: 4px solid rgb(190,190,190);
+    background-color: white;
+    font-size: 4vw;
+    width: 100%;
+    margin-left: 0;
+}
+
 .post-hub-wall {
     border-bottom: 4px solid rgb(190,190,190);
     background-color: white;
@@ -17,9 +25,47 @@ textarea {
     width: 100%;
     resize: none;
     border: none;
-    font-size: 5vw;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    background-color: white;
 }
+
+form > div.post-info {
+    margin-left: 1%;
+}
+
+form > div.post-info > p#post-info-center {
+    display: block;
+    float: right;
+    width: 33%;
+    text-align: right;
+    padding-right: 2%;
+    font-size: 4vw;
+    padding-top: 2%;
+    border-top: 1px solid rgb(155, 155, 155);
+    margin-right: 1%;
+}
+
+form >  div.post-info > p#post-info-left {
+    display: block;
+    float: left;
+    width: 33%;
+    padding-left: 2%;
+    font-size: 4vw;
+    padding-top: 2%;
+    border-top: 1px solid rgb(155, 155, 155);
+}
+
+form >  div.post-info > p#post-info-right {
+    display: block;
+    float: left;
+    padding-right: 1%;
+    width: 33%;
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 2%;
+    border-top: 1px solid rgb(155, 155, 155);
+}
+
+
 
 form > button {
     width: 32%;
@@ -29,10 +75,6 @@ form > button {
     margin-bottom: 1%;
 }
 
-form > button > a {
-    color: rgb(50, 50, 50);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 
 
