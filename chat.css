@@ -6,7 +6,7 @@
 .post-hub-wall-example {
     border-bottom: 4px solid rgb(190,190,190);
     background-color: white;
-    font-size: 4vw;
+    font-size: 3.5vw;
     width: 100%;
     margin-left: 0;
     padding-top: 5%;
@@ -15,10 +15,11 @@
 .post-hub-wall {
     border-bottom: 4px solid rgb(190,190,190);
     background-color: white;
-    font-size: 4vw;
+    font-size: 3.5vw;
     width: 100%;
     margin-left: 0;
 }
+
 
 textarea {
     padding-top: 5%;
@@ -38,8 +39,9 @@ form > div.post-info > p#post-info-center {
     float: right;
     width: 33%;
     text-align: right;
-    padding-right: 2%;
-    font-size: 4vw;
+    padding-right: 1%;
+    font-size: 3.5vw;
+    font-weight: bold;
     padding-top: 2%;
     border-top: 1px solid rgb(155, 155, 155);
     margin-right: 1%;
@@ -50,7 +52,8 @@ form >  div.post-info > p#post-info-left {
     float: left;
     width: 33%;
     padding-left: 2%;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    font-weight: bold;
     padding-top: 2%;
     border-top: 1px solid rgb(155, 155, 155);
 }
@@ -58,10 +61,11 @@ form >  div.post-info > p#post-info-left {
 form >  div.post-info > p#post-info-right {
     display: block;
     float: left;
-    padding-right: 1%;
+    padding-right: 0;
     width: 33%;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    font-weight: bold;
     padding-top: 2%;
     border-top: 1px solid rgb(155, 155, 155);
 }
