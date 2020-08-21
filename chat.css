@@ -86,7 +86,7 @@ form > button {
 
 form > img {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 0;
 }
 
 
@@ -153,7 +153,6 @@ p#previous-posts {
 }
 
 .profile-header-link > a#club-page {
-    display: inline-block;
     position: relative;
     float: right;
     right: 12.5%;
@@ -165,4 +164,16 @@ p#previous-posts {
 }
 
 
+form > span > a > img {
+    display: block;
+    position: relative;
+    float: left;
+}
 
+form > span > a > p {
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 2.5px;
+    float: left;
+}
