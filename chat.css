@@ -169,7 +169,7 @@ form > span > a > img {
     position: relative;
     float: left;
 }
-
+%;
 form > span > a > p {
     display: block;
     position: relative;
@@ -177,3 +177,19 @@ form > span > a > p {
     bottom: 2.5px;
     float: left;
 }
+
+div.profile-table {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    font-size: 4vw;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+td, th {
+    margin-right: 5%;
+}
+

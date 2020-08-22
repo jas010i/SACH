@@ -404,56 +404,6 @@
       border: 2px solid black;
     }
     
-    /*---------All Upcoming Events Table--------*/
-    
-    div >  #allEventsHeader {
-      font-family: 'Permanent Marker';
-      font-weight: lighter;
-      font-size: 5vw;
-      position: relative;
-      margin-top: 3%;
-      width: 100%;
-      text-align: center;
-      left: 50%;
-    }
-    
-    div >  table {
-      display: block;
-      font-family: 'Permanent Marker';
-      font-weight: lighter;
-      border-collapse: collapse;
-      margin-top: 4%;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      position: relative;
-      left: 32%;
-      margin-bottom: 30%;
-    }
-    
-    div >  th {
-      text-align: center;
-      padding-right: 0;
-      font-weight: lighter;
-      font-size: 16px;
-      background-color: black;
-      color: white;
-      font-family: 'Permanent Marker';
-    }
-    
-    div >  tr, td {
-      text-align: center;
-      font-size: 14px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    
-    div >  tr:nth-of-type(odd){
-      background-color: rgba(105, 105, 105, 0.336);
-    }
-    
   }
   
   .eventHeader {
