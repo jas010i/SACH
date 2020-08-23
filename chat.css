@@ -216,7 +216,7 @@ form > span > a > p {
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 125px;
+    width: 200px;
     background-color: rgba(0, 0, 0, 0.856);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -225,7 +225,7 @@ form > span > a > p {
     position: absolute;
     z-index: 1;
     bottom: 125%;
-    left: 100%;
+    left: 0%;
     margin-left: -100px;
   }
   
@@ -234,7 +234,7 @@ form > span > a > p {
     content: "";
     position: absolute;
     top: 100%;
-    left: 73%;
+    left: 81%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
